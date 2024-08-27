@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consultazione e Download</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #333333, #000000);
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .link-box {
+        width: 200px;
+        height: 100px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        display: inline-flex;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.6s ease;
+    }
+
+    .link-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .link-box:nth-child(1) {
+        background: linear-gradient(to bottom, #000000, #3f3f3f);
+    }
+
+    .link-box:nth-child(2) {
+        background: linear-gradient(to bottom, #000000, #004300);
+    }
+
+    .link-box:nth-child(3) {
+        background: linear-gradient(to bottom, #000000, #780c0c);
+    }
+
+    .link-box a {
+        color: rgb(221, 201, 201);
+        text-decoration: rgb(9, 255, 0);
+        font-size: 28px;
+        align-self: center;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="link-box" onclick="openRicettePDF()">
+        <a href="#">Torna indietro</a>
+    </div>
+    
+    <div class="link-box" onclick="openSDSComponentiWeb()">
+        <a href="#">Solo Schede di Sicurezza SDS</a>
+    </div>
+    
+    <div class="link-box" onclick="openCartella3()">
+        <a href="#">Solo schede Tecniche ST</a>
+    </div>
+                   
+    <script>
+    function openRicettePDF() {
+        window.location.href = '/SitoSchede/accesso.php';
+    }
+    
+    function openSDSComponentiWeb() {
+        window.location.href = '/SitoSchede/pro_ita/OLD/_sfoglianSDS.php';
+    }
+    
+    function openCartella3() {
+        window.location.href = '/SitoSchede/pro_ita/OLD/_sfoglianST.php';
+    }
+           </script>
+    
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elenco delle Schede Tecniche -ST- in file PDF</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid white;
+        padding: 8px;
+    }
+    th {
+        background-color: #333;
+    }
+    tr:nth-child(even) {
+        background-color: #444;
+    }
+    tr:nth-child(odd) {
+        background-color: #555;
+    }
+    .file-link {
+        color: white;
+        text-decoration: none;
+    }
+    .file-link:hover {
+        color: yellow;
+    }
+    .action-link {
+        color: #0099ff;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .action-link:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<h1>Elenco delle Schede Tecniche -ST- in file PDF:</h1>
+
+<input type="text" id="searchInput" onkeyup="searchFiles()" placeholder="Cerca per nome del file...">
+
+<table>
+    <thead>
+        <tr>
+            <th onclick="sortTable(0)">Nome del File</th>
+            <th>Data di Generazione</th>
+            <th>Visualizza</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody id="file-list"></tbody>
+</table>
+
+<script>
+async function loadPDFFiles() {
+    const fileListBody = document.getElementById('file-list');
+    const response = await fetch('.');
+    const text = await response.text();
+    const parser = new DOMParser();
+    const htmlDoc = parser.parseFromString(text, 'text/html');
+    const links = Array.from(htmlDoc.querySelectorAll('a[href$=".pdf"]')).sort((a, b) => a.textContent.localeCompare(b.textContent));
+    
+    const filePromises = links.map(async link => {
+        const fileURL = decodeURIComponent(link.getAttribute('href'));
+        const fileName = fileURL.split('/').pop();
+        const response = await fetch(fileURL, { method: 'HEAD' });
+        const date = new Date(response.headers.get('Last-Modified'));
+        const fileDate = date.toLocaleString();
+        return `
+            <tr>
+                <td><a href="${fileURL}" class="file-link">${fileName}</a></td>
+                <td>${fileDate}</td>
+                <td><a href="${fileURL}" class="action-link" target="_blank">Visualizza</a></td>
+                <td><a href="${fileURL}" class="action-link" download>Download</a></td>
+            </tr>
+        `;
+    });
+
+    const fileRows = await Promise.all(filePromises);
+    fileListBody.innerHTML = fileRows.join('');
+}
+
+document.addEventListener('DOMContentLoaded', loadPDFFiles);
+
+function sortTable(columnIndex) {
+    const table = document.querySelector("table");
+    const rows = Array.from(table.rows).slice(1);
+    const sortedRows = rows.sort((a, b) => a.cells[columnIndex].textContent.localeCompare(b.cells[columnIndex].textContent));
+    sortedRows.forEach(row => table.appendChild(row));
+}
+
+function searchFiles() {
+    const input = document.getElementById("searchInput");
+    const filter = input.value.toUpperCase();
+    const table = document.querySelector("table");
+    const rows = Array.from(table.rows).slice(1);
+    rows.forEach(row => {
+        const fileName = row.cells[0].textContent.toUpperCase();
+        row.style.display = fileName.includes(filter) ? "" : "none";
+    });
+}
+</script>
+
+</body>
+</html>

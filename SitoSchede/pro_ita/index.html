@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consultazione e Download</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #333333, #000000);
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .link-box {
+        width: 300px;
+        height: 150px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 2 4px 8px rgba(0, 0, 0, 0.3);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.6s ease;
+    }
+
+    .link-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .link-box:nth-child(1) {
+        background: linear-gradient(to bottom, #000000, #3f3f3f);
+    }
+
+    .link-box:nth-child(2) {
+        background: linear-gradient(to bottom, #000000, #004300);
+    }
+
+    .link-box:nth-child(3) {
+        background: linear-gradient(to bottom, #000000, #780c0c);
+    }
+
+    .link-box:nth-child(4) {
+        background: linear-gradient(to bottom, #000000, #09466c);
+    }
+
+    .link-box:nth-child(5) {
+        background: linear-gradient(to bottom, #000000, #fbff01);
+    }
+
+    .link-box:nth-child(6) {
+        background: linear-gradient(to bottom, #000000, #ff9901);
+    }
+
+    .link-box a {
+        color: rgb(221, 201, 201);
+        text-decoration: rgb(9, 255, 0);
+        font-size: 28px;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+    <div class="link-box" onclick="openRicettePDF()">
+        <a href="#">Torna indietro</a>
+    </div>
+    
+    <div class="link-box" onclick="openSDSComponentiWeb()">
+        <a href="#">Solo Schede di Sicurezza SDS</a>
+    </div>
+    
+    <div class="link-box" onclick="openCartella3()">
+        <a href="#">Solo schede Tecniche ST</a>
+    </div>
+    
+    <div class="link-box" onclick="openCartella4()">
+        <a href="#">Sistema misto ST e SDS</a>
+    </div>
+    
+    <div class="link-box" onclick="openCartella5()">
+        <a href="#">Vecchie Schede</a>
+    </div>
+
+    <div class="link-box" onclick="openCartella6()">
+        <a href="#">ITALMONT srl Prodotti ST-SDS-HTML</a>
+    </div>
+</div>
+
+<script>
+// JavaScript rimane invariato
+</script>
+    
+</body>
+</html>
+
+    <script>
+    function openRicettePDF() {
+        window.location.href = '/SitoSchede/accesso.php';
+    }
+    
+    function openSDSComponentiWeb() {
+        window.location.href = '/SitoSchede/pro_ita/PRODOTTI/_sfoglia_new_SDS.php';
+    }
+    
+    function openCartella3() {
+        window.location.href = '/SitoSchede/pro_ita//PRODOTTI/_sfoglia_new_ST.php';
+    }
+    
+    function openCartella4() {
+        window.location.href = '/SitoSchede/pro_ita/PRODOTTI/sfoglia_pdf.php';
+    }
+    
+    function openCartella5() {
+        window.location.href = '/SitoSchede/pro_ita/index_old.html';
+    }
+
+    function openCartella6() {
+        window.location.href = '/SitoSchede/pro_ita/PRODOTTI/index_prodotti.php';
+    }
+   </script>
+    
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elenco delle Schede di Sicurezza -SDS- in file PDF</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid white;
+        padding: 8px;
+    }
+    th {
+        background-color: #333;
+    }
+    tr:nth-child(even) {
+        background-color: #444;
+    }
+    tr:nth-child(odd) {
+        background-color: #555;
+    }
+    .file-link {
+        color: white;
+        text-decoration: none;
+    }
+    .file-link:hover {
+        color: yellow;
+    }
+    .action-link {
+        color: #0099ff;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .action-link:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<h1>Elenco delle Schede di Sicurezza -SDS- in file PDF:</h1>
+
+<input type="text" id="searchInput" onkeyup="searchFiles()" placeholder="Cerca per nome del file...">
+
+<table>
+    <thead>
+        <tr>
+            <th onclick="sortTable(0)">Nome del File</th>
+            <th>Data di Generazione</th>
+            <th>Visualizza</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody id="file-list"></tbody>
+</table>
+
+<script>
+// Funzione per caricare l'elenco dei file PDF dalla cartella corrente
+function loadPDFFiles() {
+    var fileListBody = document.getElementById('file-list');
+
+    // Effettua una richiesta HTTP GET per ottenere l'elenco dei file nella directory
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '.', true);
+
+    // Gestisce la risposta alla richiesta
+    xhr.onload = function() {
+        if (xhr.status >= 200 && xhr.status < 300) {
+            // Parse della risposta come documento HTML
+            var parser = new DOMParser();
+            var htmlDoc = parser.parseFromString(xhr.responseText, 'text/html');
+            
+            // Trova tutti i link ai file PDF nella pagina
+            var links = htmlDoc.querySelectorAll('a[href$=".pdf"]');
+            
+            // Converte la NodeList in un array e ordina i link in base al loro testo (il nome del file)
+            var sortedLinks = Array.from(links).sort((a, b) => {
+                return a.textContent.localeCompare(b.textContent);
+            });
+            
+            // Per ogni link PDF ordinato, crea una riga nella tabella
+            sortedLinks.forEach(function(link) {
+                var fileURL = decodeURIComponent(link.getAttribute('href'));
+                var fileName = fileURL.split('/').pop(); // Ottiene solo il nome del file
+                var fileDate = ''; // Inizializza la data del file come stringa vuota
+                
+                // Crea un oggetto Date per ottenere la data di generazione del file
+                var xhrDate = new XMLHttpRequest();
+                xhrDate.open('HEAD', fileURL, true);
+                xhrDate.onreadystatechange = function() {
+                    if (xhrDate.readyState == xhrDate.DONE) {
+                        var date = new Date(xhrDate.getResponseHeader('Last-Modified'));
+                        fileDate = date.toLocaleString(); // Ottiene la data nel formato locale
+
+                        // Aggiunge la riga alla tabella
+                        fileListBody.innerHTML += `
+                            <tr>
+                                <td><a href="${fileURL}" class="file-link">${fileName}</a></td>
+                                <td>${fileDate}</td>
+                                <td><a href="${fileURL}" class="action-link" target="_blank">Visualizza</a></td>
+                                <td><a href="${fileURL}" class="action-link" download>Download</a></td>
+                            </tr>
+                        `;
+                    }
+                };
+                xhrDate.send();
+            });
+        } else {
+            // Gestione degli errori
+            console.error('Errore durante il caricamento dei file:', xhr.status, xhr.statusText);
+        }
+    };
+
+    // Invia la richiesta
+    xhr.send();
+}
+
+// Carica l'elenco dei file PDF quando la pagina è pronta
+document.addEventListener('DOMContentLoaded', loadPDFFiles);
+
+// Funzione per ordinare la tabella per nome del file
+function sortTable(columnIndex) {
+    var table, rows, switching, i, x, y, shouldSwitch;
+    table = document.querySelector("table");
+    switching = true;
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("td")[columnIndex];
+            y = rows[i + 1].getElementsByTagName("td")[columnIndex];
+            if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                shouldSwitch= true;
+                break;
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+        }
+    }
+}
+
+// Funzione per cercare file per nome
+function searchFiles() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("searchInput");
+    filter = input.value.toUpperCase();
+    table = document.querySelector("table");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
+</script>
+
+</body>
+</html>

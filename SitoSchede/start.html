@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avvia e Stop Backend e Frontend</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .button-container button {
+            padding: 20px 40px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin:15px;
+        }
+        .button-container button:hover {
+            background-color: #008C00;
+        }
+        .access-button {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        .site-button {
+            padding: 20px 120px;
+            font-size: 24px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            margin:25px;
+        }
+        .site-button:hover {
+            background-color: #006B84;
+        }
+        .exit-button {
+            padding: 20px 40px;
+            font-size: 24px;
+            background: linear-gradient(#2f2f2f, #000);
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            margin: 25px;
+        }
+        .exit-button:hover {
+            background: linear-gradient(#000, #2f2f2f);
+        }
+    </style>
+</head>
+<body>
+    <h1>ACCESSO RICETTE PRODUZIONE</h1>
+    <a href="http://schede:3000" target="_blank" class="site-button">CONSULTA LE SCHEDE</a>
+    <h2></h2>
+    <h2>Avvia e Stop Backend e Frontend</h2>
+    <div class="button-container">
+        <div>
+            <h3>Backend</h3>
+            <form action="start-backend.php" method="post">
+                <button type="submit">Avvia Backend</button>
+            </form>
+            <form action="stop-backend.php" method="post">
+                <button type="submit">Stop Backend</button>
+            </form>
+        </div>
+        <div>
+            <h3>Frontend</h3>
+            <form action="start-frontend.php" method="post">
+                <button type="submit">Avvia Frontend</button>
+            </form>
+            <form action="stop-frontend.php" method="post">
+                <button type="submit">Stop Frontend</button>
+            </form>
+        </div>
+    </div>
+    <form action="stop-all.php" method="post">
+        <button type="submit" class="exit-button">ESCI E CHIUDI</button>
+    </form>
+</body>
+</html>
