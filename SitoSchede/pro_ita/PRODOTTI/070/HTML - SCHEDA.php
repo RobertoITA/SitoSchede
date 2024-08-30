@@ -2,7 +2,26 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Scheda 020</title>
+    <?php
+    header('Content-Type: text/html; charset=utf-8');
+    $fileHandle = fopen("SCHEDA.csv", "r");
+    if (!$fileHandle) {
+        echo "<title>Impossibile aprire il file</title>";
+    } else {
+        $data = [];
+        while (($row = fgetcsv($fileHandle, 0, ";")) !== FALSE) {
+            foreach ($row as $key => $value) {
+                $row[$key] = mb_convert_encoding($value, "UTF-8", "ISO-8859-1");
+            }
+            $data[] = $row;
+        }
+        fclose($fileHandle);
+
+        // Estrazione della prima voce dal file CSV
+        $schedaNumero = htmlspecialchars($data[0][0]); // La prima voce del file CSV
+        echo "<title>Scheda " . $schedaNumero . "</title>";
+    }
+    ?>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,22 +109,8 @@
 <body>
 
 <?php
-header('Content-Type: text/html; charset=utf-8');
-$fileHandle = fopen("SCHEDA.csv", "r");
-if (!$fileHandle) {
-    echo "<p>Impossibile aprire il file.</p>";
-} else {
-    $data = [];
-    while (($row = fgetcsv($fileHandle, 0, ";")) !== FALSE) {
-        foreach ($row as $key => $value) {
-            $row[$key] = mb_convert_encoding($value, "UTF-8", "ISO-8859-1");
-        }
-        $data[] = $row;
-    }
-    fclose($fileHandle);
-
+if (isset($data)) {
     // Estrazione dei dati dall'intestazione
-    $schedaNumero = htmlspecialchars($data[0][0]);
     $logoFile = htmlspecialchars($data[1][0]);
     $title = htmlspecialchars($data[2][0]);
     $schedaImg = htmlspecialchars($data[3][0]);
