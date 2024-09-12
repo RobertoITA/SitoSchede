@@ -39,13 +39,16 @@
             width: 95%;
             margin: 20px auto;
             box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
-            table-layout: auto;
             border-collapse: collapse;
             background-color: transparent;
             color: white;
         }
 
-        .header-table .left-column, .info-table th, .info-table td {
+        .header-table {
+            table-layout: auto;
+        }
+
+        .header-table .left-column {
             text-align: left;
             padding-left: 5px;
         }
@@ -69,6 +72,7 @@
             background-color: rgba(255, 255, 255, 0.7);
             color: black;
             box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+            table-layout: fixed;
         }
 
         .info-table th, .info-table td {
@@ -78,6 +82,12 @@
             vertical-align: top;
             word-break: break-word;
             white-space: normal;
+            text-align: left;
+        }
+
+        .info-table th {
+            width: 180px;
+            min-width: 180px;
         }
 
         footer {
