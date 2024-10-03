@@ -6,23 +6,38 @@
     <title>Benvenuto</title>
     <style>
         body {
-            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Aggiungi display: flex */
+            justify-content: center; /* Centra orizzontalmente */
+            align-items: center; /* Centra verticalmente */
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #003000, #003f00 25%, #FFFFFF 45%, #FFFFFF 55%, #630000 75%, #630000);
+            color: #211c3c;
             text-align: center;
-            color: white;
         }
+
         #linkButton {
-            display: inline-block;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            font-size: 24px;
-            text-decoration: none;
-            border-radius: 10px;
-            margin-top: 50px;
-        }
-        #linkButton:hover {
-            background-color: #555;
-        }
+    display: inline-block;
+    padding: 25px; /* Aumenta il padding per ingrandire il pulsante */
+    background-color: rgba(4, 100, 255, 0.25); /* Aumenta la saturazione del colore di sfondo */
+    color: rgb(247, 9, 9);
+    font-size: 28px; /* Aumenta la dimensione del font */
+    font-weight: bold; /* Aggiungi grassetto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Aggiungi ombra al testo */
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 8px solid rgba(3, 159, 194, 1);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* Aggiungi ombra esterna */
+}
+
+#linkButton:hover {
+    background-color: rgba(4, 100, 255, 0.5);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    transform: scale(1.2);
+}
     </style>
 </head>
 <body>

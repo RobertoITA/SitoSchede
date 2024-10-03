@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="it">
-<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: radial-gradient(circle, #333333, #000000);
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #003000, #003f00 15%, #FFFFFF 38%, #FFFFFF 62%, #630000 85%, #630000);
+            color: #211c3c;
+            text-align: center;
         }
         #container {
             text-align: center;
@@ -21,25 +28,6 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-        }
-    </style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <style>
-        body {
-
-    margin: 0;
-    padding: 0;
-    background: radial-gradient(circle, #333333, #000000);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:
-
-            font-family: Arial, sans-serif;
-            text-align: center;
         }
         #login {
             display: inline-block;

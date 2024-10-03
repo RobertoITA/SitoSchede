@@ -7,6 +7,17 @@
 <style>
     body {
         font-family: Arial, sans-serif;
+        margin: 0;
+    /*    padding: 0; */
+    /*    display: flex; */
+        flex-direction: column;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #003000, #003f00 15%, #FFFFFF 38%, #FFFFFF 62%, #630000 85%, #630000);
+        color: #211c3c;
+        text-align: center;
+    }
+    body {
+        font-family: Arial, sans-serif;
         background-color: black;
         color: white;
         text-align: center;
@@ -22,15 +33,15 @@
         padding: 8px;
     }
     th {
-        background-color: #333;
-        color: white;
+        background-color: rgba(1, 1, 1, 0.75);
+        color: rgba(255,255,255,0.9);
         width: 0px;
     }
     tr:nth-child(even) {
-        background-color: #444;
+        background-color: rgba(64, 64, 64, 0.75);
     }
     tr:nth-child(odd) {
-        background-color: #555;
+        background-color: rgb(102, 102, 101, 0.75);
     }
     .file-link {
         color: white;
@@ -46,6 +57,16 @@
         width: 24px;
         height: 24px;
         margin-left: 5px;
+    }
+    thead {
+        position: sticky;
+        top: 0;
+        background-color: rgb(102, 102, 101, 1); /* Colore di sfondo dell'intestazione */
+        z-index: 1;
+    }
+
+    body {
+        padding-top: 50px; /* Aggiungi padding per evitare sovrapposizioni */
     }
 </style>
 </head>
