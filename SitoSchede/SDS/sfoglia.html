@@ -13,16 +13,24 @@
         margin: 0;
         padding: 20px;
     }
+    h1 {
+        margin-top: 80px; /* Spazio per la barra di ricerca */
+    }
     table {
         width: 100%;
         border-collapse: collapse;
+        margin-top: 20px;
     }
     th, td {
         border: 1px solid white;
-        padding: 8px;
+        padding: 10px;
+        vertical-align: middle;
     }
     th {
         background-color: #333;
+    }
+    th:first-child {
+        cursor: pointer; /* Indica che la colonna nome è ordinabile */
     }
     tr:nth-child(even) {
         background-color: #444;
@@ -37,129 +45,198 @@
     .file-link:hover {
         color: yellow;
     }
-    .action-link {
-        color: #0099ff;
-        cursor: pointer;
-        text-decoration: none;
+
+    /* Stili per la barra di ricerca fluttuante */
+    #search-container {
+        position: sticky;
+        top: 0;
+        background-color: black;
+        padding: 15px 0;
+        z-index: 1000;
+        border-bottom: 1px solid #333;
     }
-    .action-link:hover {
-        text-decoration: underline;
+    #searchInput {
+        width: 80%;
+        max-width: 600px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #555;
+        background-color: #333;
+        color: white;
+    }
+
+    /* --- NUOVI STILI PER LE COLONNE CON ICONE --- */
+    .icon-column {
+        width: 80px; /* Larghezza fissa per le colonne delle icone */
+        text-align: center;
+    }
+    .action-icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        transition: opacity 0.2s;
+    }
+    .action-icon:hover {
+        opacity: 0.7;
+    }
+    .action-icon svg {
+        fill: white; /* Colore delle icone */
     }
 </style>
 </head>
 <body>
 
-<h1>Elenco dei file SDS in formato PDF:</h1>
+<div id="search-container">
+    <input type="text" id="searchInput" onkeyup="searchFiles()" placeholder="Cerca per nome del file...">
+</div>
 
-<input type="text" id="searchInput" onkeyup="searchFiles()" placeholder="Cerca per nome del file...">
+<h1>Elenco dei file SDS in formato PDF:</h1>
 
 <table>
     <thead>
+        <!-- INTESTAZIONI MODIFICATE -->
         <tr>
             <th onclick="sortTable(0)">Nome del File</th>
             <th>Data di Generazione</th>
-            <th>Visualizza</th>
-            <th>Download</th>
+            <th class="icon-column">Visualizza</th>
+            <th class="icon-column">Download</th>
+            <th class="icon-column">Stampa</th>
         </tr>
     </thead>
     <tbody id="file-list"></tbody>
 </table>
 
 <script>
-// Funzione per caricare l'elenco dei file PDF dalla cartella corrente
+// Funzione per caricare l'elenco dei file PDF
 function loadPDFFiles() {
     var fileListBody = document.getElementById('file-list');
+    fileListBody.innerHTML = '';
 
-    // Effettua una richiesta HTTP GET per ottenere l'elenco dei file nella directory
     var xhr = new XMLHttpRequest();
     xhr.open('GET', '.', true);
 
-    // Gestisce la risposta alla richiesta
     xhr.onload = function() {
         if (xhr.status >= 200 && xhr.status < 300) {
-            // Parse della risposta come documento HTML
             var parser = new DOMParser();
             var htmlDoc = parser.parseFromString(xhr.responseText, 'text/html');
             
-            // Trova tutti i link ai file PDF nella pagina
-            var links = htmlDoc.querySelectorAll('a[href$=".pdf"]');
-            
-            // Converte la NodeList in un array e ordina i link in base al loro testo (il nome del file)
-            var sortedLinks = Array.from(links).sort((a, b) => {
-                return a.textContent.localeCompare(b.textContent);
-            });
-            
-            // Per ogni link PDF ordinato, crea una riga nella tabella
-            sortedLinks.forEach(function(link) {
+            var pdfLinks = Array.from(htmlDoc.querySelectorAll('a')).filter(link => {
+                var href = link.getAttribute('href');
+                return href && href.toLowerCase().endsWith('.pdf');
+            }).sort((a, b) => a.textContent.localeCompare(b.textContent));
+
+            pdfLinks.forEach(link => {
                 var fileURL = decodeURIComponent(link.getAttribute('href'));
-                var fileName = fileURL.split('/').pop(); // Ottiene solo il nome del file
-                var fileDate = ''; // Inizializza la data del file come stringa vuota
-                
-                // Crea un oggetto Date per ottenere la data di generazione del file
+                var fileName = fileURL.split('/').pop();
+
                 var xhrDate = new XMLHttpRequest();
                 xhrDate.open('HEAD', fileURL, true);
                 xhrDate.onreadystatechange = function() {
-                    if (xhrDate.readyState == xhrDate.DONE) {
-                        var date = new Date(xhrDate.getResponseHeader('Last-Modified'));
-                        fileDate = date.toLocaleString(); // Ottiene la data nel formato locale
+                    if (xhrDate.readyState === XMLHttpRequest.DONE && xhrDate.status === 200) {
+                        var lastModifiedHeader = xhrDate.getResponseHeader('Last-Modified');
+                        var fileDate = lastModifiedHeader ? new Date(lastModifiedHeader).toLocaleString('it-IT') : 'Data non disponibile';
 
-                        // Aggiunge la riga alla tabella
-                        fileListBody.innerHTML += `
+                        // --- TEMPLATE DELLA RIGA AGGIORNATO CON LE ICONE ---
+                        var row = `
                             <tr>
                                 <td><a href="${fileURL}" class="file-link">${fileName}</a></td>
                                 <td>${fileDate}</td>
-                                <td><a href="${fileURL}" class="action-link" target="_blank">Visualizza</a></td>
-                                <td><a href="${fileURL}" class="action-link" download>Download</a></td>
+                                <!-- Icona Visualizza -->
+                                <td class="icon-column">
+                                    <a href="${fileURL}" class="action-icon" target="_blank" title="Visualizza File">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5C21.27 7.61 17 4.5 12 4.5zm0 10c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                                    </a>
+                                </td>
+                                <!-- Icona Download -->
+                                <td class="icon-column">
+                                    <a href="${fileURL}" class="action-icon" download title="Scarica File">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                                    </a>
+                                </td>
+                                <!-- Icona Stampa -->
+                                <td class="icon-column">
+                                    <a href="#" onclick="printPDF('${fileURL}'); return false;" class="action-icon" title="Stampa File">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+                                    </a>
+                                </td>
                             </tr>
                         `;
+                        fileListBody.innerHTML += row;
                     }
                 };
                 xhrDate.send();
             });
         } else {
-            // Gestione degli errori
             console.error('Errore durante il caricamento dei file:', xhr.status, xhr.statusText);
+            fileListBody.innerHTML = '<tr><td colspan="5">Errore nel caricamento della lista dei file.</td></tr>';
         }
     };
 
-    // Invia la richiesta
+    xhr.onerror = function() {
+        console.error('Errore di rete.');
+        fileListBody.innerHTML = '<tr><td colspan="5">Errore di rete. Impossibile contattare il server.</td></tr>';
+    };
+
     xhr.send();
 }
 
-// Carica l'elenco dei file PDF quando la pagina è pronta
+/**
+ * Apre il PDF in una nuova scheda e tenta di avviare la finestra di dialogo di stampa.
+ * @param {string} fileURL L'URL del file PDF da stampare.
+ */
+function printPDF(fileURL) {
+    const printWindow = window.open(fileURL, '_blank');
+    printWindow.onload = function() {
+        printWindow.print();
+    };
+}
+
 document.addEventListener('DOMContentLoaded', loadPDFFiles);
 
-// Funzione per ordinare la tabella per nome del file
 function sortTable(columnIndex) {
-    var table, rows, switching, i, x, y, shouldSwitch;
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
     table = document.querySelector("table");
     switching = true;
+    dir = "asc"; 
     while (switching) {
         switching = false;
         rows = table.rows;
         for (i = 1; i < (rows.length - 1); i++) {
             shouldSwitch = false;
-            x = rows[i].getElementsByTagName("td")[columnIndex];
-            y = rows[i + 1].getElementsByTagName("td")[columnIndex];
-            if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                shouldSwitch= true;
-                break;
+            x = rows[i].getElementsByTagName("TD")[columnIndex];
+            y = rows[i + 1].getElementsByTagName("TD")[columnIndex];
+            if (dir == "asc") {
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            } else if (dir == "desc") {
+                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
             }
         }
         if (shouldSwitch) {
             rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
             switching = true;
+            switchcount ++;      
+        } else {
+            if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
         }
     }
 }
 
-// Funzione per cercare file per nome
 function searchFiles() {
-    var input, filter, table, tr, td, i, txtValue;
+    var input, filter, tbody, tr, td, i, txtValue;
     input = document.getElementById("searchInput");
     filter = input.value.toUpperCase();
-    table = document.querySelector("table");
-    tr = table.getElementsByTagName("tr");
+    tbody = document.getElementById("file-list");
+    tr = tbody.getElementsByTagName("tr");
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[0];
         if (td) {
@@ -169,7 +246,7 @@ function searchFiles() {
             } else {
                 tr[i].style.display = "none";
             }
-        }
+        }       
     }
 }
 </script>
