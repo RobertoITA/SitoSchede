@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Apri file PRODOTTI</title>
+<style>
+    body { 
+        font-family: Arial, sans-serif; 
+        background:#121212; 
+        color:#e0e0e0; 
+        padding:24px; 
+        text-align:center; 
+    }
+    /* Rimosso lo stile per H1 */
+    table { 
+        margin:16px auto 0 auto; /* Spazio in alto dopo i controlli */
+        border-collapse:collapse; 
+        width:86%; 
+        max-width:980px; 
+        background:#1e1e1e; 
+        border-radius:8px; 
+        overflow:hidden; 
+        box-shadow:0 6px 18px rgba(0,0,0,0.6);
+    }
+    th, td { 
+        padding:10px 12px; 
+        border-bottom:1px solid #2b2b2b; 
+        text-align:left; 
+    }
+    th { 
+        background:#0078d7; 
+        color:#fff; 
+        text-align:left; /* Ripristino allineamento sinistro di default */
+    }
+    .chk-col {
+        width:80px; 
+        text-align:center; /* Centra l'intestazione della checkbox */
+    }
+    tr:hover { 
+        background:#2a2a2a; 
+    }
+    a { 
+        color:#00b7ff; 
+        text-decoration:none; 
+    }
+    a.special { 
+        color:#ffd700; 
+        font-weight:700; 
+    }
+    .controls { 
+        margin-top:0; /* Rimosso il margine in alto */
+        display:flex; 
+        gap:12px; 
+        justify-content:center; 
+        align-items:center; 
+        flex-wrap:wrap; 
+    }
+    button { 
+        background:#0078d7; 
+        color:#fff; 
+        border:0; 
+        padding:10px 18px; 
+        border-radius:8px; 
+        cursor:pointer; 
+        font-size:15px; 
+    }
+    button:active { 
+        transform:translateY(1px); 
+    }
+    #info { 
+        color:#bfbfbf; 
+        font-size:15px; /* Aumentato leggermente per coerenza con il pulsante */
+        margin-left:8px;
+    }
+    #counter { 
+        font-weight:700; 
+        color:#00ff9c; 
+    }
+    /* mobile */
+    @media (max-width:640px){
+        table { width:98%; }
+        th, td { padding:8px; font-size:14px; }
+        .chk-col { width: 50px; }
+    }
+</style>
+</head>
+<body>
+
+<!-- BLOCCO CONTROLLI SPOSTATO IN ALTO -->
+<div class="controls">
+  <button id="btnApri" type="button">🔗 Apri selezionati</button>
+  <div id="info">Selezionati: <span id="counter">0</span></div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th class="chk-col"><input type="checkbox" id="selectAll" title="Seleziona/Deseleziona tutti"></th>
+      <th>Nome file</th>
+    </tr>
+  </thead>
+  <tbody id="tabellaFile"></tbody>
+</table>
+
+<script>
+/* Lista file */
+const files = [
+    "index_csv_scuro.php",
+    "index_csv.php",
+    "riepilogo.json",
+    "parser.py",
+    "index_schede.php",
+    "SCHEDA.csv",
+    "index_prodotti.php", // evidenziare
+    "explore_directory.php",
+    "_sfoglia_new_SDS.php",
+    "_sfoglia_new_ST.php",
+    "sfoglia_invia copy.php",
+    "sfoglia_pdf.php",
+    "send_email.php",
+    "send_whatsapp.php",
+    "prova.html",
+    "prova.php",
+    "index.html",
+    "_sfoglian.php"
+];
+
+const tbody = document.getElementById('tabellaFile');
+const counterEl = document.getElementById('counter');
+
+/* costruisci tabella */
+files.forEach(f => {
+  const tr = document.createElement('tr');
+
+  const tdChk = document.createElement('td');
+  tdChk.className = "chk-col"; // Aggiunto per l'allineamento
+  const chk = document.createElement('input');
+  chk.type = 'checkbox';
+  chk.value = f;
+  chk.className = 'filechk';
+  tdChk.appendChild(chk);
+
+  const tdLink = document.createElement('td');
+  const a = document.createElement('a');
+  a.href = f;
+  a.textContent = f;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  if (f === 'index_prodotti.php') a.className = 'special';
+  tdLink.appendChild(a);
+
+  tr.appendChild(tdChk);
+  tr.appendChild(tdLink);
+  tbody.appendChild(tr);
+});
+
+/* seleziona/deseleziona tutti */
+const selectAll = document.getElementById('selectAll');
+selectAll.addEventListener('change', () => {
+  const chks = document.querySelectorAll('.filechk');
+  chks.forEach(c => c.checked = selectAll.checked);
+  aggiornaContatore();
+});
+
+/* aggiorna contatore quando cambiano le checkbox */
+tbody.addEventListener('change', (e) => {
+  if (e.target && e.target.classList && e.target.classList.contains('filechk')) {
+    // se un singolo è stato cambiato, sincronizza selectAll se necessario
+    const chks = Array.from(document.querySelectorAll('.filechk'));
+    const allChecked = chks.every(c=>c.checked);
+    // Disattiva selectAll se almeno uno non è selezionato
+    if(!allChecked) {
+        selectAll.checked = false;
+    } else {
+        // Se tutti sono selezionati, attiva selectAll
+        selectAll.checked = true;
+    }
+    aggiornaContatore();
+  }
+});
+
+function aggiornaContatore(){
+  const sel = document.querySelectorAll('.filechk:checked').length;
+  counterEl.textContent = sel;
+}
+
+/* FIX: Utilizzo di window.open e avviso per Pop-up Blocker. 
+   Il browser bloccherà comunque l'apertura di più di una o due schede. */
+document.getElementById('btnApri').addEventListener('click', function(e){
+  const selezionati = Array.from(document.querySelectorAll('.filechk:checked')).map(n => n.value);
+  if (selezionati.length === 0) {
+    alert('Seleziona almeno un file da aprire!');
+    return;
+  }
+
+  // Utilizzo di window.open, l'API standard. Il limite rimane.
+  selezionati.forEach((href, index) => {
+    // Si apre la URL in una nuova scheda
+    const nuovaFinestra = window.open(href, '_blank', 'noopener');
+    
+    // Tentativo di rilevare se il browser ha bloccato l'apertura
+    if (!nuovaFinestra || nuovaFinestra.closed || typeof nuovaFinestra.closed=='undefined') {
+        // Se il browser ha bloccato l'apertura (dalla seconda in poi), l'utente riceverà la notifica di blocco
+        if (index > 0) {
+            console.warn(`Browser ha bloccato l'apertura del file ${href}.`);
+        }
+    }
+  });
+
+  // Mostra un avviso all'utente sul limite del Pop-up Blocker
+  if (selezionati.length > 1) {
+    // Si aspetta un breve istante per dare tempo al browser di eseguire la sua azione di blocco
+    setTimeout(() => {
+        alert('Attenzione: il browser ha probabilmente bloccato l\'apertura di alcune schede per motivi di sicurezza (Pop-up Blocker). Controlla la barra degli indirizzi o consenti i pop-up per questo sito.');
+    }, 500); 
+  }
+});
+
+/* inizializza contatore a 0 */
+aggiornaContatore();
+</script>
+
+</body>
+</html>
