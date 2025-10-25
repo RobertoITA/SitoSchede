@@ -1,10 +1,17 @@
 <?php
-// index_csv.php - versione con stile richiesto e intestazioni ruotate
+// Imposta l'header HTTP per forzare la codifica UTF-8 del contenuto.
+header('Content-Type: text/html; charset=utf-8');
 
+// Percorsi di file system
 $base_dir = '/var/www/html/SitoSchede/pro_ita/PRODOTTI/';
 $riepilogo_file = $base_dir . 'riepilogo.json';
+// Percorso web-accessibile (deve essere corretto in base alla configurazione del server web)
+$web_base_path = '/SitoSchede/pro_ita/PRODOTTI/';
 
-// Pulizia testi
+// CORREZIONE PERCORSO PYTHON: Usa $base_dir per puntare correttamente al parser.py
+$parser_path = $base_dir . 'parser.py'; 
+
+// Funzioni helper (pulizia)
 function clean_key($string) {
     if ($string === null) return '';
     return trim(preg_replace('/[\x00-\x1F\x7F]/', '', $string));
@@ -15,263 +22,387 @@ function clean_final_value($string) {
     return trim($cleaned);
 }
 
-// Proviamo a leggere il riepilogo JSON scritto da parser.py
-$products = null;
+// Logica per l'aggiornamento dei dati
+$update_message = '';
+if (isset($_POST['update_data'])) {
+    if (file_exists($parser_path) && is_executable($parser_path)) {
+        // Esecuzione sincrona per catturare l'output di errore
+        $command = "python3 " . escapeshellarg($parser_path) . " 2>&1";
+        $output = shell_exec($command);
+        
+        // Verifica se il file JSON è stato creato/aggiornato con successo
+        clearstatcache(); 
+        if (file_exists($riepilogo_file) && filesize($riepilogo_file) > 0) {
+            $update_message = "Dati aggiornati con successo.";
+        } else {
+            $error_detail = empty(trim($output)) ? "Impossibile creare/scrivere 'riepilogo.json'. Controlla i permessi di scrittura sulla directory PRODOTTI/." : nl2br(htmlspecialchars($output));
+            $update_message = "Errore durante l'aggiornamento dei dati: " . $error_detail;
+        }
+    } else {
+        $update_message = "Errore: File 'parser.py' non trovato o non eseguibile. Controlla il percorso e i permessi.";
+    }
+}
+
+// Prova a leggere il file JSON
+$products = [];
 if (file_exists($riepilogo_file) && is_readable($riepilogo_file)) {
     $json_raw = file_get_contents($riepilogo_file);
     $products = json_decode($json_raw, true);
     if ($products === null || json_last_error() !== JSON_ERROR_NONE) {
-        $products = null;
+        $products = [];
     }
 }
 
-// Se non esiste o è corrotto, fallback al parsing diretto dei file SCHEDA.csv
-if (!$products) {
-    $products = parseWithPhpFallback($base_dir);
-}
-
-function parseWithPhpFallback($base_dir) {
-    $products = [];
-    $dirs = glob($base_dir . '*', GLOB_ONLYDIR);
-    foreach ($dirs as $dir) {
-        $scheda_file = $dir . '/SCHEDA.csv';
-        if (file_exists($scheda_file)) {
-            $content = file_get_contents($scheda_file);
-            $lines = explode("\n", str_replace(["\r\n", "\r"], "\n", $content));
-            $lines = array_values(array_filter($lines, function($l){ return trim($l) !== ''; }));
-
-            $product_data = [
-                'SCHEDA_NUMERO' => clean_key($lines[0] ?? ''),
-                'LOGO_FILENAME' => clean_key($lines[1] ?? ''),
-                'NOME_PRODOTTO' => clean_key($lines[2] ?? ''),
-                'IMMAGINE_FILENAME' => clean_key($lines[3] ?? ''),
-                'dettagli' => []
-            ];
-
-            $current_key = '';
-            for ($i = 4; $i < count($lines); $i++) {
-                $line = $lines[$i];
-                if (strpos($line, ';;') !== false) {
-                    $parts = explode(';;', $line, 2);
-                    $new_key = clean_key($parts[0]);
-                    if ($new_key !== '') {
-                        $current_key = $new_key;
-                        $product_data['dettagli'][$current_key] = clean_final_value($parts[1] ?? '');
-                    }
-                } elseif ($current_key !== '' && trim($line) !== '') {
-                    $product_data['dettagli'][$current_key] .= "\n" . clean_final_value($line);
-                }
-            }
-
-            $products[basename($dir)] = $product_data;
-        }
-    }
-    return $products;
-}
-
-// Intestazioni della tabella (manteniamo le stesse chiavi usate nella pagina precedente)
+// Headers per la tabella. 
 $headers = [
     'DESCRIZIONE', 'ASPETTO', 'PESO SPECIFICO', 'RESIDUO SECCO',
-    'PERMEABILITA AL VAPORE ACQUEO', 'PRESA DI SPORCO', "LAVABILITA'",
+    'PERMEABILITA', 'PRESA DI SPORCO', "LAVABILITA'",
     'COLORE', 'ESSICCAZIONE', 'RESA PRATICA', 'DILUIZIONE',
     'ATTREZZI', 'SUPPORTI', 'CODICE ARTICOLO'
 ];
 
-// Elenco intestazioni da ruotare (90° anticlockwise)
-$rotated_headers = [
-    'ASPETTO',
-    'PESO SPECIFICO',
-    'RESIDUO SECCO',
-    'PERMEABILITA AL VAPORE ACQUEO',
-    'PRESA DI SPORCO',
-    "LAVABILITA'"
+// Mapping per la colonna 'PERMEABILITA'
+$header_keys_map = [
+    'PERMEABILITA' => 'PERMEABILITA AL VAPORE ACQUEO'
 ];
-
 ?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Elenco Schede Prodotti</title>
-<style>
-    /* Body e sfondo come dal file che mi hai fornito */
-    :root{
-        --bg1: #003000;
-        --bg2: #003f00;
-        --accent: #630000;
-        --header-bg: rgba(1,1,1,0.75);
-        --th-border: rgba(255,255,255,0.9);
-        --odd: rgba(102,102,101,0.75);
-        --even: rgba(64,64,64,0.75);
-        --text: #ffffff;
-    }
-    html,body { height:100%; margin:0; padding:0; }
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-        background: linear-gradient(to bottom, var(--bg1), var(--bg2) 15%, #FFFFFF 38%, #FFFFFF 62%, var(--accent) 85%, var(--accent));
-        color: var(--text);
-        text-align: center;
-        box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <title>TABELLA PRODOTTI</title>
+    <style>
+        /* COLORI SCURI E MODERNI */
+        body { 
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background-color: #0f0f23; /* Dark Navy/Space Blue */
+            color: #e0e0e0; /* Light text */
+        }
+        h1 { 
+            color: #00bcd4; /* Accent Cyan */
+            font-size: 1.8em;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Contenitore principale per forzare lo scroll orizzontale se necessario */
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
 
-    h1 {
-        margin: 10px 0 20px 0;
-        color: var(--text);
-        text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-    }
+        .products-table { 
+            min-width: 100%; /* Garantisce che la tabella non sia più stretta del contenitore */
+            border-collapse: collapse; 
+            
+            /* CORREZIONE 1: Permette alle colonne di auto-dimensionarsi in base al contenuto */
+            table-layout: auto; 
+            
+            background-color: #1a1a38; 
+        }
+        
+        /* Stili Intestazione (TH) - Resi sticky e TRASPARENTI */
+        .products-table th { 
+            background: rgba(26, 26, 56, 0.95); /* Dark Navy semi-trasparente */
+            backdrop-filter: blur(2px); 
+            color: #f0f0f0; 
+            position: sticky; 
+            top: 0; 
+            z-index: 10; 
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 1px solid #3a3a5a;
+            padding: 10px;
+            vertical-align: middle; 
+            transition: background-color 0.1s; 
+        }
+        .products-table th:hover {
+            background: rgba(26, 26, 56, 1);
+        }
+        
+        /* RIGHE ALTERNATE */
+        .products-table tbody tr:nth-child(odd) {
+            background-color: #1a1a38; /* Base Table Background */
+        }
+        .products-table tbody tr:nth-child(even) {
+            background-color: #15152a; /* Colore leggermente più scuro per pari */
+        }
 
-    .search-box {
-        margin-bottom: 20px;
-        padding: 8px 12px;
-        width: 360px;
-        max-width: 90%;
-        border-radius: 6px;
-        border: none;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.5);
-    }
+        .products-table td {
+            border: 1px solid #3a3a5a;
+            padding: 10px; 
+            text-align: left; 
+            vertical-align: top;
+            font-size: 0.9em;
+            height: 150px; 
+            box-sizing: border-box;
+        }
+        
+        /* Controlli Header */
+        .header-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .search-box { 
+            padding: 10px; 
+            width: 300px; 
+            border: 1px solid #3a3a5a; 
+            border-radius: 6px;
+            background-color: #1a1a38;
+            color: #f0f0f0;
+        }
+        /* Stili per i pulsanti */
+        .right-controls {
+            display: flex;
+            gap: 10px; 
+        }
+        .control-btn {
+            background-color: #00bcd4; 
+            color: #1a1a38;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s, transform 0.1s;
+            text-decoration: none; 
+            display: inline-flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+        .control-btn:hover {
+            background-color: #00e5ff;
+            transform: translateY(-1px);
+        }
+        .update-message {
+            position: fixed; 
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            padding: 10px 15px;
+            border-radius: 6px;
+            background-color: #4CAF50; 
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
 
-    .table-wrap {
-        width: 100%;
-        overflow-x: auto; /* se la tabella è larga */
-        background: rgba(0,0,0,0.25);
-        padding: 8px;
-        border-radius: 6px;
-    }
+        /* CORREZIONE 1: Larghezza Fissa solo per la colonna PRODOTTO */
+        .col-prodotto { width: 120px; min-width: 120px; } /* Larghezza fissa per la colonna Prodotto */
+        
+        .product-info {
+            /* Per la colonna PRODOTTO, usa flexbox per allineamento */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            padding: 5px;
+        }
+        .product-info img {
+            max-height: 50px; 
+            margin-bottom: 5px; /* Spazio tra immagine e testo */
+            display: block; /* Immagine come blocco */
+            vertical-align: middle;
+            background-color: white; 
+            padding: 2px;
+            border-radius: 4px;
+        }
+        .product-info strong, .product-info small {
+            display: block; 
+            color: #f0f0f0;
+            white-space: normal; 
+            word-wrap: break-word; 
+        }
+        
+        /* Larghezze indicative per le colonne (non percentuali rigide) */
+        .col-descrizione { min-width: 300px; max-width: 400px; } 
+        .col-diluizione { min-width: 250px; }  
+        .col-codice-articolo { width: 100px; min-width: 100px; } 
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        min-width: 1200px; /* forza layout ampio per colonne ruotate */
-    }
+        /* ROTAZIONE A 90° e MAX COMPATTAMENTO (Header) */
+        .rotated-header-90 {
+            width: 30px !important; 
+            padding: 0;
+            margin: 0;
+            height: 150px; 
+            position: relative; 
+            overflow: visible; 
+            z-index: 11; 
+        }
+        .rotated-header-90 > div {
+            position: absolute;
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%) rotate(-90deg); 
+            
+            width: 150px; 
+            padding: 0;
+            text-align: center; 
+            white-space: nowrap;
+        }
+        
+        /* ROTAZIONE A 90° e MAX COMPATTAMENTO (Dati) */
+        .rotated-cell {
+            width: 30px !important; /* Aumentato leggermente per i dati ruotati */
+            padding: 0; 
+            vertical-align: middle;
+            text-align: center;
+            position: relative;
+        }
 
-    thead {
-        position: sticky;
-        top: 0;
-        z-index: 5;
-        background: rgba(102,102,101,1);
-    }
-
-    th, td {
-        border: 1px solid rgba(255,255,255,0.85);
-        padding: 10px;
-        vertical-align: middle;
-        text-align: left;
-        font-size: 13px;
-    }
-
-    th {
-        background: var(--header-bg);
-        color: rgba(255,255,255,0.95);
-        white-space: nowrap;
-    }
-
-    tbody tr:nth-child(even) { background: var(--even); }
-    tbody tr:nth-child(odd)  { background: var(--odd); }
-
-    /* Stile per celle del prodotto (nome e scheda) */
-    td.product {
-        width: 280px;
-    }
-    td.product strong { display:block; color:#fff; }
-    td.product small { color: #ddd; }
-
-    /* Stile per le intestazioni ruotate */
-    th.rotated {
-        width: 60px; /* larghezza della colonna */
-        padding: 4px;
-        text-align: center;
-        vertical-align: bottom;
-    }
-
-    /* Contenitore interno che verrà ruotato -90deg (anticlockwise) */
-    th.rotated > .rot {
-        display: inline-block;
-        transform: rotate(-90deg);
-        transform-origin: left bottom;
-        /* centratura e spaziatura del testo ruotato */
-        padding: 6px 4px;
-        line-height: 1.1;
-        font-size: 12px;
-    }
-
-    /* Quando l'intestazione contiene <br>, verranno più righe (come richiesto) */
-    th.rotated > .rot br { display:block; line-height:1; }
-
-    /* Hoping to keep readability */
-    td, th { color: #ffffff; }
-
-    /* responsive: riduci la dimensione del testo su schermi piccoli */
-    @media (max-width:800px){
-        table { min-width: 900px; }
-        th.rotated { width: 48px; }
-        th.rotated > .rot { font-size: 11px; padding:4px; }
-    }
-</style>
+        .rotated-cell > div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 150px; 
+            line-height: 1.2;
+            padding: 0;
+            margin: 0;
+            white-space: nowrap;
+            text-align: center;
+            transform: translate(-50%, -50%) rotate(-90deg);
+        }
+    </style>
 </head>
 <body>
-    <h1>ELENCO DELLE SCHEDE DEI PRODOTTI</h1>
-
-    <input type="text" id="searchInput" class="search-box" placeholder="🔍 Cerca...">
-
-    <div class="table-wrap">
-        <table id="productsTable" role="table" aria-label="Tabella prodotti">
-            <thead>
-                <tr>
-                    <th>SCHEDA NUMERO</th>
-                    <th>PRODOTTO / DESCRIZIONE</th>
-
-                    <?php
-                    // Stampa le intestazioni, ruotate se necessarie
-                    foreach ($headers as $header) {
-                        if (in_array($header, $rotated_headers)) {
-                            // sostituisco gli spazi con <br> in modo che le intestazioni con più parole occupino più righe,
-                            // quindi ruotando risultano più compatte verticalmente
-                            $label_html = str_replace(' ', '<br>', htmlspecialchars($header));
-                            echo "<th class='rotated'><div class='rot'>{$label_html}</div></th>";
-                        } else {
-                            echo '<th>' . htmlspecialchars($header) . '</th>';
-                        }
-                    }
-                    ?>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($products as $dir => $product): ?>
-                    <tr>
-                        <td><?= htmlspecialchars($product['SCHEDA_NUMERO'] ?? $dir) ?></td>
-                        <td class="product">
-                            <strong><?= htmlspecialchars($product['NOME_PRODOTTO'] ?? $dir) ?></strong>
-                            <small><?= nl2br(htmlspecialchars($product['dettagli']['DESCRIZIONE'] ?? '')) ?></small>
-                        </td>
-
-                        <?php foreach ($headers as $header): ?>
-                            <?php
-                                $value = $product['dettagli'][$header] ?? '';
-                                $value = clean_final_value($value);
-                                // Mostra a capo all'interno delle celle
-                                $value_html = nl2br(htmlspecialchars($value));
-                            ?>
-                            <td><?= $value_html ?></td>
-                        <?php endforeach; ?>
-                    </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
+    <div class="header-controls">
+        <input type="text" id="searchInput" class="search-box" placeholder="🔍 Cerca...">
+        <h1>📊 TABELLA RIEPILOGATIVA PRODOTTI</h1>
+        
+        <div class="right-controls">
+            <form method="post" style="margin: 0;">
+                <button type="submit" name="update_data" class="control-btn update-btn">Aggiorna i dati</button>
+            </form>
+            
+            <!-- PULSANTE con Data/Ora e reindirizzamento -->
+            <a href="http://schede/SitoSchede/pro_ita/PRODOTTI/tutto.html" id="currentDateBtn" class="control-btn">
+                <span id="dateTime"></span>
+            </a>
+        </div>
     </div>
 
+    <?php if (!empty($update_message)): ?>
+        <div class="update-message"><?= $update_message ?></div>
+    <?php endif; ?>
+
+<div class="table-container">
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th class="col-prodotto">PRODOTTO</th>
+                <?php 
+                $rotated_headers = ['ASPETTO', 'PESO SPECIFICO', 'RESIDUO SECCO', 'PERMEABILITA', 'PRESA DI SPORCO', "LAVABILITA'"];
+                foreach ($headers as $header): 
+                    $class = 'col-normale';
+                    if ($header == 'DESCRIZIONE') $class = 'col-descrizione';
+                    else if ($header == 'DILUIZIONE') $class = 'col-diluizione';
+                    else if ($header == 'CODICE ARTICOLO') $class = 'col-codice-articolo'; 
+                    
+                    if (in_array($header, $rotated_headers)):
+                ?>
+                        <th class="rotated-header-90"><div><?= htmlspecialchars($header) ?></div></th>
+                <?php else: ?>
+                        <th class="<?= $class ?>"><?= htmlspecialchars($header) ?></th>
+                <?php endif; endforeach; ?>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($products as $dir => $product): ?>
+                <tr>
+                    <td class="product-info col-prodotto">
+                        <?php 
+                        $logo_filename = htmlspecialchars($product['LOGO_FILENAME'] ?? '');
+                        $img_filename = htmlspecialchars($product['IMMAGINE_FILENAME'] ?? '');
+                        $product_dir = htmlspecialchars($dir);
+                        
+                        // CORREZIONE 2: Logica per mostrare logo E/O immagine
+                        if (!empty($logo_filename)) {
+                            $logo_path = $web_base_path . $product_dir . '/' . $logo_filename;
+                            echo '<img src="' . $logo_path . '" alt="Logo Prodotto">';
+                        }
+                        if (!empty($img_filename)) {
+                            $img_path = $web_base_path . $product_dir . '/' . $img_filename;
+                            // Se non c'è logo, usa l'immagine; se c'è logo, usa l'immagine (ma solo se diversa dal logo)
+                            // A causa della mancanza di informazioni su come distinguere logo da immagine, le mostro entrambe se presenti.
+                            if (empty($logo_filename) || $logo_filename != $img_filename) {
+                                echo '<img src="' . $img_path . '" alt="Immagine Prodotto">';
+                            }
+                        }
+                        ?>
+                        <strong><?= htmlspecialchars($product['NOME_PRODOTTO'] ?? '') ?></strong>
+                        <small>Scheda: <?= htmlspecialchars($product['SCHEDA_NUMERO'] ?? '') ?></small>
+                    </td>
+                    <?php foreach ($headers as $header): ?>
+                        <?php 
+                            $key_in_data = $header_keys_map[$header] ?? $header;
+                            $value = clean_final_value($product['dettagli'][$key_in_data] ?? ''); 
+                            $class = 'col-normale';
+                            if ($header == 'DESCRIZIONE') $class = 'col-descrizione';
+                            else if ($header == 'DILUIZIONE') $class = 'col-diluizione';
+                            else if ($header == 'CODICE ARTICOLO') $class = 'col-codice-articolo';
+                            
+                            // LOGICA DI TRASFORMAZIONE PER CODICE ARTICOLO
+                            if ($header == 'CODICE ARTICOLO' && strpos($value, ';') !== false) {
+                                $value = str_replace(';', "\n", $value);
+                            }
+                        ?>
+                        <?php if (in_array($header, $rotated_headers)): ?>
+                             <td class="rotated-cell">
+                                <div><?= nl2br(htmlspecialchars($value)) ?></div>
+                             </td>
+                        <?php else: ?>
+                            <td class="<?= $class ?>">
+                                <?= nl2br(htmlspecialchars($value)) ?>
+                            </td>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>
+
 <script>
-// semplice filtro client-side (testo completo nella riga)
-document.getElementById("searchInput").addEventListener("input", function(e) {
-    const filter = e.target.value.toLowerCase();
-    const rows = document.querySelectorAll("#productsTable tbody tr");
-    rows.forEach(row => {
-        const text = row.textContent.toLowerCase();
-        row.style.display = text.includes(filter) ? "" : "none";
+    // Funzione per aggiornare l'ora e la data nel pulsante
+    function updateDateTime() {
+        const now = new Date();
+        const dateOptions = { day: '2-digit', month: '2-digit', year: 'numeric' };
+        const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+        
+        const dateStr = now.toLocaleDateString('it-IT', dateOptions);
+        const timeStr = now.toLocaleTimeString('it-IT', timeOptions);
+        
+        // Ho rimosso "Carica: " dal PHP e lo aggiungo qui o solo la data/ora
+        document.getElementById('dateTime').textContent = `${dateStr} ${timeStr}`;
+    }
+
+    // Aggiorna subito e poi ogni secondo
+    updateDateTime();
+    setInterval(updateDateTime, 1000); 
+
+    // Logica di ricerca
+    document.getElementById("searchInput").addEventListener("input", function(e) {
+        const filter = e.target.value.toLowerCase();
+        const rows = document.querySelectorAll("tbody tr");
+        rows.forEach(row => {
+            const text = row.textContent.toLowerCase();
+            row.style.display = text.includes(filter) ? "" : "none";
+        });
     });
-});
+
+    // Messaggio di aggiornamento
+    const updateMessage = document.querySelector('.update-message');
+    if(updateMessage) {
+        setTimeout(() => {
+            updateMessage.style.display = 'none';
+        }, 5000);
+    }
 </script>
 </body>
 </html>

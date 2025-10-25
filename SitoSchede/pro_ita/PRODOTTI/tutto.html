@@ -44,7 +44,7 @@
         text-decoration:none; 
     }
     a.special { 
-        color:#ffd700; 
+        color:#5eff00; 
         font-weight:700; 
     }
     .controls { 
@@ -105,8 +105,8 @@
 <script>
 /* Lista file */
 const files = [
-    "index_csv_scuro.php",
-    "index_csv.php",
+    "index_csv_scuro.php", // evidenziare
+    "index_csv.php", // evidenziare
     "riepilogo.json",
     "parser.py",
     "index_schede.php",
@@ -147,6 +147,8 @@ files.forEach(f => {
   a.target = '_blank';
   a.rel = 'noopener';
   if (f === 'index_prodotti.php') a.className = 'special';
+  if (f === 'index_csv.php') a.className = 'special';
+  if (f === 'index_csv_scuro.php') a.className = 'special';
   tdLink.appendChild(a);
 
   tr.appendChild(tdChk);
