@@ -10,11 +10,11 @@ from email.mime.text import MIMEText
 from email import encoders
 
 # Configurazione SMTP (SOSTITUISCI CON I TUOI DATI REALI)
-SMTP_SERVER = 'smtp.gmail.com'  # Es. smtp.gmail.com, mail.tuodominio.it
+SMTP_SERVER = '192.168.0.228'  # Es. smtp.gmail.com, mail.tuodominio.it
 SMTP_PORT = 587                 # 587 (TLS/STARTTLS) o 465 (SSL)
-SMTP_USERNAME = 'roberto.italmont@gmail.com'
-SMTP_PASSWORD = 'ital12345mont'
-SENDER_EMAIL = 'roberto.italmont@gmail.com'
+SMTP_USERNAME = 'roberto.bartolini'
+SMTP_PASSWORD = '010377'
+SENDER_EMAIL = 'roberto@italmont.it'
 SENDER_NAME = 'Sistema Schede Tecniche e di Sicurezza'
 
 # Controllo Argomenti
