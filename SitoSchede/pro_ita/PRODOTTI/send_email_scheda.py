@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# File: send_email.py (Versione con HTML, Immagine Inline, Ridimensionamento e Archiviazione Posta Inviata)
+# File: send_email_scheda.py
 
 import sys
 import os
@@ -10,48 +10,65 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email import encoders
-from email.header import Header # Importa per la codifica degli header
-from email.utils import formataddr # Importa per la formattazione di From/To
+from email.header import Header
+from email.utils import formataddr
 
 # Importa la libreria di gestione immagini Pillow
 try:
     from PIL import Image
 except ImportError:
+    # Uscita in caso di errore di importazione, l'output verrà catturato da PHP
     print("Error: La libreria 'Pillow' (PIL) non è installata. Esegui: pip install Pillow", file=sys.stderr)
     sys.exit(1)
+
 
 # Configurazione SMTP (SOSTITUISCI CON I TUOI DATI REALI)
 SMTP_SERVER = '192.168.0.228'
 SMTP_PORT = 587                 # 587 (TLS/STARTTLS) o 465 (SSL)
 SMTP_USERNAME = 'roberto.bartolini'
 SMTP_PASSWORD = 'Zaq1Mko0#iM'
-SENDER_EMAIL = 'roberto@italmont.it'
-SENDER_NAME = 'ITALMONT SRL - Schede Tecniche e di Sicurezza'
+SENDER_EMAIL = 'roberto@italmont.it' 
+SENDER_NAME = 'Roberto Bartolini - Italmont srl'
 LOGO_FILENAME = 'logo.jpg' 
 LOGO_SIZE = (320, 240) 
-BCC_EMAIL = SENDER_EMAIL # *** NUOVA RIGA: Invia una copia a te stesso come BCC ***
+BCC_EMAIL = SENDER_EMAIL 
 
-# Controllo Argomenti
+
+# Controllo Argomenti (adesso sono 3: Destinatari, Allegati, Nome_File_Principale)
 if len(sys.argv) != 4:
-    print("Error: Usage: python send_email.py <destinatario> <percorso_file> <nome_file>", file=sys.stderr)
+    print("Error: Usage: python send_email_scheda.py <destinatari,> <percorsi_allegati,> <nome_file_principale>", file=sys.stderr)
     sys.exit(1)
 
 # Recupero Argomenti
-RECIPIENT_EMAIL = sys.argv[1]
-FILE_PATH = sys.argv[2]
-FILE_NAME = sys.argv[3] 
+RECIPIENTS_INPUT = sys.argv[1] 
+ATTACHMENTS_INPUT = sys.argv[2]
+MAIN_FILE_NAME = sys.argv[3] 
 
-# Controllo Esistenza File
-if not os.path.exists(FILE_PATH):
-    print(f"Error: File non trovato al percorso: {FILE_PATH}", file=sys.stderr)
+# --- PARSING E VALIDAZIONE ---
+RECIPIENT_LIST = [r.strip() for r in RECIPIENTS_INPUT.split(',') if r.strip()]
+ATTACHMENT_PATHS = [a.strip() for a in ATTACHMENTS_INPUT.split(',') if a.strip()]
+
+if not RECIPIENT_LIST:
+    print("Error: Nessun destinatario valido specificato.", file=sys.stderr)
     sys.exit(1)
 
-# --- LOGICA DI ESTRAZIONE DATI ---
-DIR_PATH = os.path.dirname(FILE_PATH)
+if not ATTACHMENT_PATHS:
+    print("Error: Nessun allegato specificato.", file=sys.stderr)
+    sys.exit(1)
+
+# Il percorso del file principale è il primo della lista degli allegati
+MAIN_FILE_PATH = ATTACHMENT_PATHS[0]
+if not os.path.exists(MAIN_FILE_PATH):
+    print(f"Error: File principale non trovato al percorso: {MAIN_FILE_PATH}", file=sys.stderr)
+    sys.exit(1)
+
+
+# --- LOGICA DI ESTRAZIONE DATI PER IL CORPO EMAIL ---
+DIR_PATH = os.path.dirname(MAIN_FILE_PATH)
 SCHEDA_NUMBER = os.path.basename(DIR_PATH)
 LOGO_PATH = os.path.join(DIR_PATH, LOGO_FILENAME) 
 
-PRODUCT_NAME_WITH_PREFIX = os.path.splitext(FILE_NAME)[0]
+PRODUCT_NAME_WITH_PREFIX = os.path.splitext(MAIN_FILE_NAME)[0]
 
 if PRODUCT_NAME_WITH_PREFIX.upper().startswith('ST - '):
     CLEAN_PRODUCT_NAME = PRODUCT_NAME_WITH_PREFIX[5:]
@@ -67,16 +84,11 @@ def send_attached_email():
         # Crea il corpo del messaggio
         msg = MIMEMultipart('mixed')
         
-        # *** MODIFICA: Utilizza formataddr per gestire il nome e l'email del mittente ***
         msg['From'] = formataddr((str(Header(SENDER_NAME, 'utf-8')), SENDER_EMAIL))
-        
-        msg['To'] = RECIPIENT_EMAIL
-        msg['Subject'] = f'Invio del file: {FILE_NAME}'
-        
-        # *** NUOVA RIGA: Aggiunge il tuo indirizzo come BCC nell'header del messaggio ***
-        # Questo avvisa il tuo client di posta che una copia dovrebbe essere inviata a te.
+        # Metti tutti i destinatari nel campo To (visibile)
+        msg['To'] = ", ".join(RECIPIENT_LIST) 
+        msg['Subject'] = f'Invio file: {MAIN_FILE_NAME} e allegati'
         msg['Bcc'] = BCC_EMAIL 
-
 
         # Usa un contenitore "related" per il corpo HTML e le immagini inline
         msg_related = MIMEMultipart('related')
@@ -86,8 +98,8 @@ def send_attached_email():
         <html>
         <body style="font-family: Arial, sans-serif; font-size: 10pt;">
             <p>Buongiorno,</p>
-            <p>in allegato a questo messaggio e-mail, troverà il file:<br>
-            <strong>{FILE_NAME}</strong></p>
+            <p>in allegato a questo messaggio e-mail, troverà i file richiesti, tra cui:</p>
+            <p><strong>{MAIN_FILE_NAME}</strong></p>
             <p>relativo alla scheda:<br>
             <strong>{SCHEDA_NUMBER} - {CLEAN_PRODUCT_NAME}</strong></p>
             <p>Cordiali Saluti.</p>
@@ -117,7 +129,8 @@ def send_attached_email():
         # --- ALLEGATO LOGO INLINE (CID) CON RIDIMENSIONAMENTO ---
         if os.path.exists(LOGO_PATH):
             img = Image.open(LOGO_PATH)
-            img.thumbnail(LOGO_SIZE)
+            # Utilizza thumbnail che rimpicciolisce senza forzare lo stretching
+            img.thumbnail(LOGO_SIZE) 
             
             buffer = io.BytesIO()
             img.save(buffer, format='jpeg') 
@@ -131,41 +144,42 @@ def send_attached_email():
         
         msg.attach(msg_related)
 
-        # --- ALLEGATO PDF (Il file reale da allegare) ---
-        with open(FILE_PATH, "rb") as attachment:
-            part = MIMEBase("application", "octet-stream")
-            part.set_payload(attachment.read())
 
-        encoders.encode_base64(part)
+        # --- ALLEGATI PDF/ALTRI FILE (Tutti i file) ---
+        for file_path in ATTACHMENT_PATHS:
+            if os.path.exists(file_path):
+                file_name = os.path.basename(file_path)
+                with open(file_path, "rb") as attachment:
+                    part = MIMEBase("application", "octet-stream")
+                    part.set_payload(attachment.read())
 
-        part.add_header(
-            "Content-Disposition",
-            f"attachment; filename=\"{FILE_NAME}\"", 
-        )
+                encoders.encode_base64(part)
 
-        msg.attach(part)
+                part.add_header(
+                    "Content-Disposition",
+                    f"attachment; filename=\"{file_name}\"", 
+                )
+                msg.attach(part)
 
         # --- GESTIONE INVIO E DESTINATARI ---
         
-        # Il server ha bisogno della lista dei destinatari reali (TO + CC + BCC)
-        # La lista dei destinatari email che riceveranno il messaggio.
-        # BCC_EMAIL (che è il tuo indirizzo) è inserito qui.
-        recipient_list = [RECIPIENT_EMAIL, BCC_EMAIL] 
-        # Rimuovi eventuali duplicati o indirizzi vuoti (solo per sicurezza)
-        recipient_list = list(set([r for r in recipient_list if r])) 
+        # La lista dei destinatari reali include TO e BCC (il tuo indirizzo)
+        recipient_list_for_server = RECIPIENT_LIST + [BCC_EMAIL]
+        recipient_list_for_server = list(set([r for r in recipient_list_for_server if r])) 
         
         with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
             server.starttls() 
             server.login(SMTP_USERNAME, SMTP_PASSWORD)
             text = msg.as_string()
             
-            # *** MODIFICA RIGA sendmail: Usa SENDER_EMAIL come mittente e recipient_list come destinatari ***
-            server.sendmail(SENDER_EMAIL, recipient_list, text)
+            # Invia dal tuo indirizzo a tutti i destinatari (inclusa la copia BCC)
+            server.sendmail(SENDER_EMAIL, recipient_list_for_server, text)
             
         sys.exit(0)
 
     except Exception as e:
-        print(f"Error during email sending: {e}", file=sys.stderr)
+        # Stampa l'errore sullo standard error in modo che PHP possa catturarlo
+        print(f"Error: Errore durante l'invio via SMTP: {e}", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":

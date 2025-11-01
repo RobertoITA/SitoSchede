@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <?php
     header('Content-Type: text/html; charset=utf-8');
+    
+    // Il file SCHEDA.csv si trova nella stessa directory di HTML - SCHEDA.php (es. /PRODOTTI/001/)
     $fileHandle = fopen("SCHEDA.csv", "r");
     if (!$fileHandle) {
         echo "<title>Impossibile aprire il file</title>";
     } else {
         $data = [];
         while (($row = fgetcsv($fileHandle, 0, ";")) !== FALSE) {
+            // Conversione per gestire correttamente caratteri come accenti
             foreach ($row as $key => $value) {
                 $row[$key] = mb_convert_encoding($value, "UTF-8", "ISO-8859-1");
             }
@@ -17,9 +20,17 @@
         }
         fclose($fileHandle);
 
-        // Estrazione della prima voce dal file CSV
-        $schedaNumero = htmlspecialchars($data[0][0]); // La prima voce del file CSV
+        // Estrazione della prima voce dal file CSV (che è il numero di scheda/nome cartella)
+        $schedaNumero = htmlspecialchars($data[0][0]);
         echo "<title>Scheda " . $schedaNumero . "</title>";
+        
+        // Determina il percorso base del PRODOTTI (due livelli sopra)
+        // Se HTML - SCHEDA.php è in /PRODOTTI/001/, il percorso base è /PRODOTTI/
+        $BASE_DIR_URL = '../'; 
+        
+        // Percorso assoluto della directory corrente per lo script Python (DEVE ESSERE ASSOLUTO PER IL SERVER!)
+        // L'uso di getcwd() prende la directory dove risiede HTML - SCHEDA.php (es. /var/www/html/SitoSchede/pro_ita/PRODOTTI/001/)
+        $SERVER_FILE_PATH_BASE = getcwd() . '/';
     }
     ?>
     <style>
@@ -88,6 +99,22 @@
         .info-table th {
             width: 180px;
             min-width: 180px;
+        }
+
+        .file-entry {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px; /* Spazio tra i link dei file */
+        }
+
+        .file-entry a {
+            margin-right: 5px;
+        }
+
+        .file-icon {
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
         }
 
         footer {
@@ -171,10 +198,35 @@ if (isset($data)) {
     <tr>
         <td>
             <?php
+            // Funzione per generare il link e l'icona email
+            function generateFileEntry($filename, $baseDirUrl, $serverFilePathBase) {
+                // Costruisci il percorso assoluto per lo script Python
+                $server_filepath = $serverFilePathBase . $filename;
+                $encoded_server_filepath = urlencode($server_filepath);
+                $encoded_file_name = urlencode($filename);
+                
+                // Determina il percorso relativo dello script PHP intermedio (../invia_email_server.php)
+                $email_script_url = $baseDirUrl . 'invia_email_server.php';
+
+                echo '<div class="file-entry">';
+                // Link per il download (usa il nome del file perché siamo nella stessa cartella)
+                echo "<a href='" . htmlspecialchars($filename) . "' download>" . htmlspecialchars($filename) . "</a>";
+                
+                // Link Email con JavaScript e percorso RELATIVO per l'icona
+                echo "<a href=\"javascript:void(0);\" 
+                        onclick=\"var recipient = prompt('Inserisci l\'indirizzo email del destinatario:'); 
+                                 if (recipient) { 
+                                     window.location.href = '" . $email_script_url . "?path=$encoded_server_filepath&filename=$encoded_file_name&to=' + encodeURIComponent(recipient); 
+                                 }\">
+                        <img src='" . $baseDirUrl . "em.png' class='file-icon' alt='Invia per email'>
+                      </a>";
+                echo '</div>';
+            }
+
             $files = glob("ST -*.pdf");
             if (!empty($files)) {
                 foreach ($files as $filename) {
-                    echo "<a href='" . htmlspecialchars($filename) . "' download>" . htmlspecialchars($filename) . "</a><br>";
+                    generateFileEntry($filename, $BASE_DIR_URL, $SERVER_FILE_PATH_BASE);
                 }
             } else {
                 echo "Nessun file disponibile";
@@ -186,7 +238,7 @@ if (isset($data)) {
             $files = glob("SDS -*.pdf");
             if (!empty($files)) {
                 foreach ($files as $filename) {
-                    echo "<a href='" . htmlspecialchars($filename) . "' download>" . htmlspecialchars($filename) . "</a><br>";
+                    generateFileEntry($filename, $BASE_DIR_URL, $SERVER_FILE_PATH_BASE);
                 }
             } else {
                 echo "Nessun file disponibile";
@@ -198,7 +250,7 @@ if (isset($data)) {
             $files = glob("CER -*.pdf");
             if (!empty($files)) {
                 foreach ($files as $filename) {
-                    echo "<a href='" . htmlspecialchars($filename) . "' download>" . htmlspecialchars($filename) . "</a><br>";
+                    generateFileEntry($filename, $BASE_DIR_URL, $SERVER_FILE_PATH_BASE);
                 }
             } else {
                 echo "Nessun file disponibile";

@@ -5,7 +5,7 @@
 header('Content-Type: application/json');
 
 // 1. Configurazione del percorso Python e dello script
-// ASSICURATI che il percorso sia CORRETTO sul tuo server
+// *** AGGIORNARE QUESTO PERCORSO SE python3 NON E' IN /usr/bin/ ***
 $python_command = '/usr/bin/python3'; 
 $python_script = 'send_email_scheda.py'; 
 
@@ -24,9 +24,7 @@ if (empty($destinatari_input) || empty($percorso_locale_file) || !file_exists($p
 // 4. PREPARAZIONE DATI PER PYTHON
 
 // a) Destinatari multipli
-// Splitta i destinatari usando spazio, virgola o punto e virgola come separatori
 $destinatari_puliti = preg_split('/[\s,;]+/', $destinatari_input, -1, PREG_SPLIT_NO_EMPTY);
-// Filtra solo indirizzi validi
 $destinatari_validi = array_filter($destinatari_puliti, 'filter_var', FILTER_VALIDATE_EMAIL);
 $destinatari_stringa = implode(',', $destinatari_validi);
 
@@ -41,32 +39,35 @@ $file_aggiuntivi_nomi = preg_split('/[\s,;]+/', $file_aggiuntivi_input, -1, PREG
 $percorsi_aggiuntivi = [];
 
 foreach ($file_aggiuntivi_nomi as $nome_file) {
-    // Ricostruisce il percorso completo per i file aggiuntivi (che si presuppone siano nella stessa cartella)
+    // Ricostruisce il percorso completo per i file aggiuntivi (si presuppone siano nella stessa cartella del file principale)
     $percorso_completo = $dir_file_principale . '/' . trim($nome_file);
     if (file_exists($percorso_completo)) {
         $percorsi_aggiuntivi[] = $percorso_completo;
     }
 }
 
-// c) Creazione della lista degli allegati completi (CORREZIONE APPLICATA QUI)
-// Inizializza con il percorso del file principale (che è garantito esistere)
+// c) Creazione della lista degli allegati completi (CORRETTO per singolo file)
 $allegati_array = [$percorso_locale_file];
-
-// Aggiungi tutti i percorsi aggiuntivi validi
 $allegati_array = array_merge($allegati_array, $percorsi_aggiuntivi);
-
-// Crea la stringa separata da virgole da passare a Python
 $allegati_stringa = implode(',', $allegati_array);
 
-// 5. Preparazione del comando Python
+// 5. Preparazione ed Esecuzione del comando Python
 
 // Sanificazione degli input per prevenire 'Shell Injection'
 $escaped_dest = escapeshellarg($destinatari_stringa);
 $escaped_attachments = escapeshellarg($allegati_stringa);
 $escaped_main_filename = escapeshellarg($file_principale_nome);
 
-// Il comando completo da eseguire sulla shell
-$command = "$python_command " . escapeshellarg(dirname(__FILE__) . '/' . $python_script) . " $escaped_dest $escaped_attachments $escaped_main_filename 2>&1";
+// *** Importante: Usa il percorso assoluto dello script Python ***
+$python_script_path = dirname(__FILE__) . '/' . $python_script;
+
+if (!file_exists($python_script_path)) {
+    echo json_encode(['status' => 'error', 'message' => "Errore di sistema: Script Python non trovato al percorso: " . htmlspecialchars($python_script_path)]);
+    exit;
+}
+
+// Il comando completo da eseguire
+$command = "$python_command " . escapeshellarg($python_script_path) . " $escaped_dest $escaped_attachments $escaped_main_filename 2>&1";
 
 // Esecuzione del comando Python
 $output = shell_exec($command);
@@ -75,11 +76,15 @@ $output = shell_exec($command);
 if ($output === null || strpos(strtolower($output), 'error') === false) { 
     // Successo
     echo json_encode(['status' => 'success', 'message' => 'Email inviata con successo a: ' . htmlspecialchars($destinatari_stringa) . '.']);
-} else {
-    // Errore
-    // Controlla l'output di Python per il debug
-    // Logga l'output di errore per il debug: file_put_contents('email_scheda_log.txt', date('Y-m-d H:i:s') . " - Output: " . $output . "\n", FILE_APPEND);
-    echo json_encode(['status' => 'error', 'message' => "Si è verificato un errore durante l'invio dell'email. (Dettaglio: " . nl2br(htmlspecialchars($output)) . ")"]);
+} /* else {
+    // Errore: l'output di Python contiene un errore
+    $detail = trim($output) ?: 'Nessun output di errore specifico dal Python script. Controllare i permessi (chmod).';
+    echo json_encode(['status' => 'error', 'message' => "Invio fallito. Dettaglio errore: " . nl2br(htmlspecialchars($detail))]);
+}*/ 
+else {
+    header('Content-Type: text/plain'); // Per vedere l'output grezzo
+    echo "Comando: " . $command . "\n\n";
+    echo "Output Python:\n" . $output;
+    exit;
 }
 exit;
-?>
