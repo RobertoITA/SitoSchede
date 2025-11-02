@@ -1,85 +1,83 @@
 <?php
-// File: invia_email_scheda_server.php
+/**
+ * File: invia_email_server.php
+ * Gestisce la richiesta AJAX dall'interfaccia, valida i dati
+ * e invoca lo script Python per l'invio dell'email.
+ * Restituisce una risposta JSON.
+ */
 
-// Questo script gestisce la richiesta AJAX e DEVE restituire un JSON.
+// Imposta l'header per indicare che la risposta è in formato JSON
 header('Content-Type: application/json');
 
-// 1. Configurazione del percorso Python e dello script
-// ASSICURATI che il percorso sia CORRETTO sul tuo server
+// --- CONFIGURAZIONE ---
 $python_command = '/usr/bin/python3'; 
-$python_script = 'send_email_scheda.py'; 
+$python_script_path = dirname(__FILE__) . '/send_email.py';
 
-// 2. RECUPERO DEI PARAMETRI (da POST)
-$destinatari_input = filter_input(INPUT_POST, 'recipients', FILTER_SANITIZE_STRING);
-$percorso_locale_file = filter_input(INPUT_POST, 'filePathMain', FILTER_SANITIZE_STRING);
-$file_aggiuntivi_input = filter_input(INPUT_POST, 'extraFiles', FILTER_SANITIZE_STRING);
-$file_principale_nome = filter_input(INPUT_POST, 'fileNameMain', FILTER_SANITIZE_STRING);
-
-// 3. VALIDAZIONE BASE
-if (empty($destinatari_input) || empty($percorso_locale_file) || !file_exists($percorso_locale_file)) {
-    echo json_encode(['status' => 'error', 'message' => 'Dati mancanti, indirizzo email o percorso file principale non valido.']);
+// --- FUNZIONE PER RESTITUIRE ERRORI ---
+function return_error($message, $details = '') {
+    echo json_encode(['status' => 'error', 'message' => $message, 'details' => $details]);
     exit;
 }
 
-// 4. PREPARAZIONE DATI PER PYTHON
-
-// a) Destinatari multipli
-// Splitta i destinatari usando spazio, virgola o punto e virgola come separatori
-$destinatari_puliti = preg_split('/[\s,;]+/', $destinatari_input, -1, PREG_SPLIT_NO_EMPTY);
-// Filtra solo indirizzi validi
-$destinatari_validi = array_filter($destinatari_puliti, 'filter_var', FILTER_VALIDATE_EMAIL);
-$destinatari_stringa = implode(',', $destinatari_validi);
-
-if (empty($destinatari_stringa)) { 
-    echo json_encode(['status' => 'error', 'message' => 'Nessun indirizzo email valido trovato.']);
-    exit;
+// --- 1. RECUPERO E VALIDAZIONE DEI DATI (da POST) ---
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    return_error('Metodo di richiesta non valido.');
 }
 
-// b) File Aggiuntivi multipli
-$dir_file_principale = dirname($percorso_locale_file);
-$file_aggiuntivi_nomi = preg_split('/[\s,;]+/', $file_aggiuntivi_input, -1, PREG_SPLIT_NO_EMPTY);
-$percorsi_aggiuntivi = [];
+$destinatario = filter_input(INPUT_POST, 'to', FILTER_SANITIZE_EMAIL);
+$percorso_file = filter_input(INPUT_POST, 'path', FILTER_SANITIZE_STRING);
+$nome_file = filter_input(INPUT_POST, 'filename', FILTER_SANITIZE_STRING);
 
-foreach ($file_aggiuntivi_nomi as $nome_file) {
-    // Ricostruisce il percorso completo per i file aggiuntivi (che si presuppone siano nella stessa cartella)
-    $percorso_completo = $dir_file_principale . '/' . trim($nome_file);
-    if (file_exists($percorso_completo)) {
-        $percorsi_aggiuntivi[] = $percorso_completo;
-    }
+// Validazione dell'indirizzo email
+if (!$destinatario || !filter_var($destinatario, FILTER_VALIDATE_EMAIL)) {
+    return_error('Indirizzo email non valido o mancante.');
 }
 
-// c) Creazione della lista degli allegati completi (CORREZIONE APPLICATA QUI)
-// Inizializza con il percorso del file principale (che è garantito esistere)
-$allegati_array = [$percorso_locale_file];
+// Validazione dei percorsi
+if (empty($percorso_file) || empty($nome_file)) {
+    return_error('Percorso del file o nome del file mancante.');
+}
 
-// Aggiungi tutti i percorsi aggiuntivi validi
-$allegati_array = array_merge($allegati_array, $percorsi_aggiuntivi);
+// CONTROLLO DI SICUREZZA FONDAMENTALE: verifica che il file esista sul server
+if (!file_exists($percorso_file)) {
+    // Logga l'errore per il debug lato server se necessario
+    // error_log("Tentativo di invio file non trovato: " . $percorso_file);
+    return_error('Il file richiesto non è stato trovato sul server.');
+}
 
-// Crea la stringa separata da virgole da passare a Python
-$allegati_stringa = implode(',', $allegati_array);
+// --- 2. PREPARAZIONE ED ESECUZIONE DELLO SCRIPT PYTHON ---
 
-// 5. Preparazione del comando Python
+// Sanifica ogni argomento per prevenire attacchi "Shell Injection"
+$escaped_dest = escapeshellarg($destinatario);
+$escaped_filepath = escapeshellarg($percorso_file);
+$escaped_filename = escapeshellarg($nome_file);
 
-// Sanificazione degli input per prevenire 'Shell Injection'
-$escaped_dest = escapeshellarg($destinatari_stringa);
-$escaped_attachments = escapeshellarg($allegati_stringa);
-$escaped_main_filename = escapeshellarg($file_principale_nome);
+// Costruisce il comando completo
+// "2>&1" reindirizza l'output di errore (stderr) allo standard output (stdout),
+// così possiamo catturare qualsiasi messaggio di errore da Python.
+$command = "$python_command " . escapeshellarg($python_script_path) . " $escaped_dest $escaped_filepath $escaped_filename 2>&1";
 
-// Il comando completo da eseguire sulla shell
-$command = "$python_command " . escapeshellarg(dirname(__FILE__) . '/' . $python_script) . " $escaped_dest $escaped_attachments $escaped_main_filename 2>&1";
+// Esegue il comando usando 'exec' per ottenere il codice di ritorno
+$output = [];
+$return_code = 0;
+exec($command, $output, $return_code);
 
-// Esecuzione del comando Python
-$output = shell_exec($command);
+// Converte l'array di output in una singola stringa per i dettagli dell'errore
+$output_string = implode("\n", $output);
 
-// 6. Gestione del risultato
-if ($output === null || strpos(strtolower($output), 'error') === false) { 
-    // Successo
-    echo json_encode(['status' => 'success', 'message' => 'Email inviata con successo a: ' . htmlspecialchars($destinatari_stringa) . '.']);
+// --- 3. GESTIONE DELLA RISPOSTA ---
+
+// Un codice di ritorno '0' da Python significa che l'esecuzione ha avuto successo.
+if ($return_code === 0) {
+    echo json_encode([
+        'status' => 'success',
+        'message' => 'Email inviata con successo a: ' . htmlspecialchars($destinatario)
+    ]);
 } else {
-    // Errore
-    // Controlla l'output di Python per il debug
-    // Logga l'output di errore per il debug: file_put_contents('email_scheda_log.txt', date('Y-m-d H:i:s') . " - Output: " . $output . "\n", FILE_APPEND);
-    echo json_encode(['status' => 'error', 'message' => "Si è verificato un errore durante l'invio dell'email. (Dettaglio: " . nl2br(htmlspecialchars($output)) . ")"]);
+    // Se il codice di ritorno è diverso da 0, si è verificato un errore.
+    return_error(
+        "Si è verificato un errore durante l'invio dell'email.",
+        $output_string // Includi l'output di Python per il debug
+    );
 }
-exit;
 ?>
