@@ -69,6 +69,10 @@
     .vecchie-schede {
         background: linear-gradient(to bottom, #000000, #fd0202);
     }
+
+    .dpi {
+        background: linear-gradient(to bottom, #333333, #025afd);
+    }
 </style>
 </head>
 <body>
@@ -88,6 +92,9 @@
 <div class="link-box vecchie-schede" onclick="openCartella4()">
     <a href="#">Consultazione e Download Vecchie Schede</a>
 </div>
+<div class="link-box dpi" onclick="openCartella4()">
+    <a href="#">Creazione Schede DPI</a>
+</div>
 
 <script>
 function openRicettePDF() {
@@ -106,6 +113,9 @@ function openCartella4() {
     window.location.href = '/SitoSchede/pro_ita/index_old.html';
 }
 
+function openCartella4() {
+    window.location.href = 'http://schede:19000';
+}
 </script>
 
 </body>
