@@ -1,0 +1,129 @@
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT Rev. n. 2.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT Rev. n. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT Rev. n. 2.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [042] SDS - ZIRKON BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [080] SDS - RE 23 - TRATTAMENTO PER PARETI INTERNE ED ESTERNE - IT Rev. n. 1.pdf
+Elaborazione: [085] SDS - REASS - IT Rev. n. 1.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT Rev. n. 1.pdf
+Elaborazione: [091] SDS - USA20 - IT Rev. n. 1.pdf
+Elaborazione: [093] SDS - USA20GF - IT Rev. n. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 35 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT Rev. n. 2.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT Rev. n. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT Rev. n. 2.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [042] SDS - ZIRKON BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [080] SDS - RE 23 - TRATTAMENTO PER PARETI INTERNE ED ESTERNE - IT Rev. n. 1.pdf
+Elaborazione: [085] SDS - REASS - IT Rev. n. 1.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT Rev. n. 1.pdf
+Elaborazione: [091] SDS - USA20 - IT Rev. n. 1.pdf
+Elaborazione: [093] SDS - USA20GF - IT Rev. n. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 35 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT Rev. n. 2.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT Rev. n. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT Rev. n. 2.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT Rev. n. 1.pdf
+Elaborazione: [042] SDS - ZIRKON BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT Rev. n. 1.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT Rev. n. 2.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT Rev. n. 1.pdf
+Elaborazione: [080] SDS - RE 23 - TRATTAMENTO PER PARETI INTERNE ED ESTERNE - IT Rev. n. 1.pdf
+Elaborazione: [085] SDS - REASS - IT Rev. n. 1.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT Rev. n. 1.pdf
+Elaborazione: [091] SDS - USA20 - IT Rev. n. 1.pdf
+Elaborazione: [093] SDS - USA20GF - IT Rev. n. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 35 file.

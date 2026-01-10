@@ -76,6 +76,10 @@
         background: linear-gradient(to bottom, #000000, #ff9901);
     }
 
+    .link-box:nth-child(7) {
+        background: linear-gradient(to bottom, #000000, #01ffff54);
+    }
+
     .link-box a {
         color: rgb(221, 201, 201);
         text-decoration: rgb(9, 255, 0);
@@ -101,13 +105,17 @@
     <div class="link-box" onclick="openCartella4()">
         <a href="#">Sistema misto ST e SDS</a>
     </div>
-    
+
     <div class="link-box" onclick="openCartella5()">
         <a href="#">Vecchie Schede</a>
     </div>
 
     <div class="link-box" onclick="openCartella6()">
         <a href="#">ITALMONT srl Prodotti ST-SDS-HTML</a>
+    </div>
+
+    <div class="link-box" onclick="openCartella7()">
+        <a href="#">Lista File</a>
     </div>
 </div>
 
@@ -141,6 +149,11 @@
 
     function openCartella6() {
         window.location.href = '/SitoSchede/pro_ita/PRODOTTI/index_prodotti.php';
+    }
+
+
+    function openCartella7() {
+        window.location.href = '/SitoSchede/pro_ita/PRODOTTI/tutto.html';
     }
    </script>
     

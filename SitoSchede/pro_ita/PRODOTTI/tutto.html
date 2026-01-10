@@ -111,6 +111,7 @@ const files = [
     "parser.py",
     "index_schede.php",
     "SCHEDA.csv",
+    "estratto_valori_schede_SDS.php", // evidenziare
     "index_prodotti.php", // evidenziare
     "explore_directory.php",
     "_sfoglia_new_SDS.php",
@@ -149,6 +150,7 @@ files.forEach(f => {
   if (f === 'index_prodotti.php') a.className = 'special';
   if (f === 'index_csv.php') a.className = 'special';
   if (f === 'index_csv_scuro.php') a.className = 'special';
+  if (f === 'estratto_valori_schede_SDS.php') a.className = 'special';
   tdLink.appendChild(a);
 
   tr.appendChild(tdChk);
