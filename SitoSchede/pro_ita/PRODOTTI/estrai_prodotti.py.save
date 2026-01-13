@@ -10,7 +10,7 @@ BASE_DIR = "/var/www/html/SitoSchede/pro_ita/PRODOTTI/"
 FILE_CSV = os.path.join(BASE_DIR, "riepilogo_sds.csv")
 FILE_JSON = os.path.join(BASE_DIR, "riepilogo_sds.json")
 
-# Verifica i permessi di scrittura
+# Verifica permessi di scrittura
 if not os.access(BASE_DIR, os.W_OK):
     print(f"ERRORE CRITICO: Non hai i permessi di scrittura in {BASE_DIR}")
     print("Suggerimento: esegui 'sudo chown -R roberto:roberto /var/www/html/SitoSchede/pro_ita/PRODOTTI/'")
@@ -35,17 +35,17 @@ def estrai_dati_pdf(percorso_file, nome_cartella, nome_file):
     }
 
     testo_completo = ""
-    testo_sez2 = "" # Variabile per isolare la sezione etichettatura alle prime pagine
+    testo_sez2 = "" #Isolare la sezione etichettatura (prime pagine)
 
     try:
         with pdfplumber.open(percorso_file) as pdf:
-            # iterazione che legge le pagine
+            # Lettura pagine
             for i, pagina in enumerate(pdf.pages):
                 testo_pag = pagina.extract_text()
                 if testo_pag:
                     testo_completo += testo_pag + "\n"
-                    # Limita la ricerca etichetta (Sez 2) alle prime 2-4 pagine
-                    if i < 4: 
+                    # Ricerca etichetta (Sez 2) alle prime 2-3 pagine
+                    if i < 3: 
                         testo_sez2 += testo_pag + "\n"
     except Exception as e:
         print(f"Errore lettura {nome_file}: {e}")
@@ -57,7 +57,7 @@ def estrai_dati_pdf(percorso_file, nome_cartella, nome_file):
         dati["Nome Prodotto"] = match_nome.group(1).strip()
 
     # --- 2.2 Elementi dell'etichetta (SOLO CODICI) ---
-    # Cerca codici che iniziano con H, P, EUH isolati da confini di parola
+    # Cerca codici H, P, EUH isolati da confini di parola
     codici_trovati = re.findall(r"\b(EUH\d{3}|H\d{3}|P\d{3})\b", testo_sez2)
     # Rimuovi duplicati e ordina
     codici_univoci = sorted(list(set(codici_trovati)))
