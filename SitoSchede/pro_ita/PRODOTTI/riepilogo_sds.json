@@ -170,16 +170,6 @@
         "Limite Massimo VOC": "30.00"
     },
     {
-        "Numero Scheda": "024",
-        "Nome File": "SDS - REMOLD ADDITIVO - IT Rev. n. 1.pdf",
-        "Nome Prodotto": "REMOLD ADDITIVO",
-        "Elementi Etichetta": "EUH210, H226, H314, H315, H318, H319, P101, P102, P501",
-        "Peso Specifico (g/cm3)": "1 g/cm3 Metodo:Picnometro",
-        "Caratteristiche Particelle": "non applicabile",
-        "VOC Espressi": "N/D",
-        "Limite Massimo VOC": "N/D"
-    },
-    {
         "Numero Scheda": "026",
         "Nome File": "SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf",
         "Nome Prodotto": "PITTURA PURA",
@@ -190,10 +180,80 @@
         "Limite Massimo VOC": "30.00"
     },
     {
+        "Numero Scheda": "030",
+        "Nome File": "SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf",
+        "Nome Prodotto": "JANTAR FISSATIVO CONSOLIDANTE",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.03 Metodo:ASTM D891",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "5.10",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
+        "Numero Scheda": "031",
+        "Nome File": "SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf",
+        "Nome Prodotto": "FONDORECOAT LISCIO base bianca",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "6.11",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
         "Numero Scheda": "032",
-        "Nome File": "SDS - FONDORECOAT SABBIATO BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf",
         "Nome Prodotto": "FONDORECOAT SABBIATO base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "6.59",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
+        "Numero Scheda": "033",
+        "Nome File": "SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf",
+        "Nome Prodotto": "FONDORECOAT SABBIATO base bo",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "6.23",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
+        "Numero Scheda": "034",
+        "Nome File": "SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf",
+        "Nome Prodotto": "FONDOREGRUND base bianca",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "5.15",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
+        "Numero Scheda": "035",
+        "Nome File": "SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf",
+        "Nome Prodotto": "FONDO REFINE base bianca",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "2.57",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
+        "Numero Scheda": "036",
+        "Nome File": "SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf",
+        "Nome Prodotto": "FONDO REFINE base bo",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "6.39",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
+        "Numero Scheda": "037",
+        "Nome File": "SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf",
+        "Nome Prodotto": "REFONDO SABBIATO base bianca",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.67",
