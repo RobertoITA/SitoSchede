@@ -1,7 +1,7 @@
 [
     {
         "Numero Scheda": "001",
-        "Nome File": "SDS - SUPER TRASPIRA BIANCO - IT Rev. n. 2.pdf",
+        "Nome File": "SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf",
         "Nome Prodotto": "SUPER TRASPIRA BIANCO",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
@@ -21,9 +21,9 @@
     },
     {
         "Numero Scheda": "003",
-        "Nome File": "SDS - NEFRIT BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf",
         "Nome Prodotto": "NEFRIT base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "7.39",
@@ -31,9 +31,9 @@
     },
     {
         "Numero Scheda": "004",
-        "Nome File": "SDS - REONYX BASE BIANCA - IT Rev. n. 2.pdf",
+        "Nome File": "SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf",
         "Nome Prodotto": "REONYX base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.05",
@@ -41,9 +41,9 @@
     },
     {
         "Numero Scheda": "005",
-        "Nome File": "SDS - TITANIT BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf",
         "Nome Prodotto": "TITANIT base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.47",
@@ -51,7 +51,7 @@
     },
     {
         "Numero Scheda": "006",
-        "Nome File": "SDS - TITANIT BASE BO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - TITANIT BASE BO - IT - Rev. 2.pdf",
         "Nome Prodotto": "TITANIT base bo",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
@@ -61,9 +61,9 @@
     },
     {
         "Numero Scheda": "007",
-        "Nome File": "SDS - RETITAN BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf",
         "Nome Prodotto": "RETITAN base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.27",
@@ -71,9 +71,9 @@
     },
     {
         "Numero Scheda": "008",
-        "Nome File": "SDS - UNICO BASE BIANCA - IT Rev. n. 2.pdf",
+        "Nome File": "SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf",
         "Nome Prodotto": "UNICO base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.47",
@@ -81,9 +81,9 @@
     },
     {
         "Numero Scheda": "009",
-        "Nome File": "SDS - UNICO PLUS BIANCO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf",
         "Nome Prodotto": "UNICO PLUS bianco",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "7.19",
@@ -91,9 +91,9 @@
     },
     {
         "Numero Scheda": "010",
-        "Nome File": "SDS - LAVABILE BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf",
         "Nome Prodotto": "LAVABILE base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.02",
@@ -101,7 +101,7 @@
     },
     {
         "Numero Scheda": "011",
-        "Nome File": "SDS - LAVABILE BASE BO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - LAVABILE BASE BO - IT - Rev. 2.pdf",
         "Nome Prodotto": "LAVABILE base bo",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
@@ -121,9 +121,9 @@
     },
     {
         "Numero Scheda": "013",
-        "Nome File": "SDS - AMETYST WHITE BIANCO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf",
         "Nome Prodotto": "AMETHYST WHITE bianco",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.85",
@@ -131,9 +131,9 @@
     },
     {
         "Numero Scheda": "014",
-        "Nome File": "SDS - AMETYST BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf",
         "Nome Prodotto": "AMETHYST base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.37",
@@ -141,7 +141,7 @@
     },
     {
         "Numero Scheda": "015",
-        "Nome File": "SDS - AMETYST BASE BO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - AMETYST BASE BO - IT - Rev. 2.pdf",
         "Nome Prodotto": "AMETHYST base bo",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
@@ -151,9 +151,9 @@
     },
     {
         "Numero Scheda": "016",
-        "Nome File": "SDS - CORAL BASE BIANCA - IT Rev. n. 3.pdf",
+        "Nome File": "SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf",
         "Nome Prodotto": "CORAL base bianca",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "6.81",
@@ -168,6 +168,16 @@
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "0.20",
         "Limite Massimo VOC": "30.00"
+    },
+    {
+        "Numero Scheda": "024",
+        "Nome File": "SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "REMOLD ADDITIVO",
+        "Elementi Etichetta": "EUH210, H226, H314, H315, H318, H319, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "N/D",
+        "Limite Massimo VOC": "N/D"
     },
     {
         "Numero Scheda": "026",
@@ -351,20 +361,10 @@
     },
     {
         "Numero Scheda": "080",
-        "Nome File": "SDS - RE 23 - TRATTAMENTO PER PARETI INTERNE ED ESTERNE - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf",
         "Nome Prodotto": "RE-23",
         "Elementi Etichetta": "EUH071, H301, H302, H311, H314, H317, H318, H330, H400, H410, H411, P101, P102, P273, P280, P391, P501",
         "Peso Specifico (g/cm3)": "1 Metodo:Picnometro",
-        "Caratteristiche Particelle": "non applicabile",
-        "VOC Espressi": "N/D",
-        "Limite Massimo VOC": "N/D"
-    },
-    {
-        "Numero Scheda": "085",
-        "Nome File": "SDS - REASS - IT Rev. n. 1.pdf",
-        "Nome Prodotto": "REASS",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410",
-        "Peso Specifico (g/cm3)": "1.03",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "N/D",
         "Limite Massimo VOC": "N/D"
@@ -381,7 +381,7 @@
     },
     {
         "Numero Scheda": "091",
-        "Nome File": "SDS - USA20 - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf",
         "Nome Prodotto": "PLASTER MIX",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
@@ -391,8 +391,8 @@
     },
     {
         "Numero Scheda": "093",
-        "Nome File": "SDS - USA20GF - IT Rev. n. 1.pdf",
-        "Nome Prodotto": "PLASTER MIX",
+        "Nome File": "SDS - USA20GF - READY FINE - IT - Rev. 2.pdf",
+        "Nome Prodotto": "READY FINE",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
