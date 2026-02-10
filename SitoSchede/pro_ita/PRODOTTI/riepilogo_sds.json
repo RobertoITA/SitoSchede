@@ -181,9 +181,9 @@
     },
     {
         "Numero Scheda": "026",
-        "Nome File": "SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf",
+        "Nome File": "SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf",
         "Nome Prodotto": "PITTURA PURA",
-        "Elementi Etichetta": "EUH211, P101, P102, P501",
+        "Elementi Etichetta": "P101, P102, P501",
         "Peso Specifico (g/cm3)": "non disponibile Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "0.20",
@@ -271,7 +271,7 @@
     },
     {
         "Numero Scheda": "038",
-        "Nome File": "SDS - REFONDO BIANCO - IT Rev. n. 2.pdf",
+        "Nome File": "SDS - REFONDO BIANCO - IT - Rev. 3.pdf",
         "Nome Prodotto": "REFONDO bianco",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
@@ -281,9 +281,9 @@
     },
     {
         "Numero Scheda": "040",
-        "Nome File": "SDS - QUARZO BIANCO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - QUARZO BIANCO - IT - Rev. 2.pdf",
         "Nome Prodotto": "QUARZO BIANCO",
-        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H372, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "7.94",
@@ -291,7 +291,7 @@
     },
     {
         "Numero Scheda": "041",
-        "Nome File": "SDS - ZIRKON WHITE BIANCO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf",
         "Nome Prodotto": "ZIRKON WHITE BIANCO",
         "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P273",
         "Peso Specifico (g/cm3)": "1.4 Metodo:Picnometro",
@@ -301,7 +301,7 @@
     },
     {
         "Numero Scheda": "042",
-        "Nome File": "SDS - ZIRKON BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf",
         "Nome Prodotto": "ZIRKON BASE BIANCA",
         "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P273",
         "Peso Specifico (g/cm3)": "1.4 Metodo:Picnometro",
@@ -311,7 +311,7 @@
     },
     {
         "Numero Scheda": "043",
-        "Nome File": "SDS - ZIRKON BASE BO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - ZIRKON BASE BO - IT - Rev. 2.pdf",
         "Nome Prodotto": "ZIRKON BASE BO",
         "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P273",
         "Peso Specifico (g/cm3)": "1.4 Metodo:Picnometro",
@@ -321,7 +321,7 @@
     },
     {
         "Numero Scheda": "044",
-        "Nome File": "SDS - ESTCEM BASE BIANCA - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf",
         "Nome Prodotto": "ESTCEM BASE BIANCA",
         "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P273",
         "Peso Specifico (g/cm3)": "1.4 Metodo:Picnometro",
@@ -331,7 +331,7 @@
     },
     {
         "Numero Scheda": "045",
-        "Nome File": "SDS - ESTCEM BASE BO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - ESTCEM BASE BO - IT - Rev. 2.pdf",
         "Nome Prodotto": "ESTCEM BASE BO",
         "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P273",
         "Peso Specifico (g/cm3)": "1.4 Metodo:Picnometro",
@@ -341,7 +341,7 @@
     },
     {
         "Numero Scheda": "046",
-        "Nome File": "SDS - DIAMANT BASE BIANCA - IT Rev. n. 2.pdf",
+        "Nome File": "SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf",
         "Nome Prodotto": "DIAMANT BASE BIANCA",
         "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P273",
         "Peso Specifico (g/cm3)": "1.4 Metodo:Picnometro",
@@ -351,12 +351,12 @@
     },
     {
         "Numero Scheda": "047",
-        "Nome File": "SDS - DIAMANT BASE BO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - DIAMANT BASE BO - IT - Rev. 2.pdf",
         "Nome Prodotto": "DIAMANT BASE BO",
         "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P273",
         "Peso Specifico (g/cm3)": "1.4 Metodo:Picnometro",
         "Caratteristiche Particelle": "non applicabile",
-        "VOC Espressi": "11.70",
+        "VOC Espressi": "11.73",
         "Limite Massimo VOC": "40.00"
     },
     {
@@ -371,7 +371,7 @@
     },
     {
         "Numero Scheda": "090",
-        "Nome File": "SDS - RESTUCCO - IT Rev. n. 1.pdf",
+        "Nome File": "SDS - RESTUCCO - IT - Rev. 2.pdf",
         "Nome Prodotto": "RESTUCCO",
         "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
         "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
@@ -398,6 +398,166 @@
         "Caratteristiche Particelle": "non applicabile",
         "VOC Espressi": "N/D",
         "Limite Massimo VOC": "N/D"
+    },
+    {
+        "Numero Scheda": "100",
+        "Nome File": "SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "101",
+        "Nome File": "SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "102",
+        "Nome File": "SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "103",
+        "Nome File": "SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "110",
+        "Nome File": "SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "111",
+        "Nome File": "SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "112",
+        "Nome File": "SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "113",
+        "Nome File": "SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "130",
+        "Nome File": "SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "131",
+        "Nome File": "SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "132",
+        "Nome File": "SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "133",
+        "Nome File": "SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "140",
+        "Nome File": "SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "141",
+        "Nome File": "SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRILICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "142",
+        "Nome File": "SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BIANCA",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "143",
+        "Nome File": "SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RECOAT ACRIL-SILOSSANICO BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H372, H400, H410, H412, P101, P102, P273, P501",
+        "Peso Specifico (g/cm3)": "1.6 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.13",
+        "Limite Massimo VOC": "40.00"
     },
     {
         "Numero Scheda": "198",
