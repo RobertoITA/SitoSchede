@@ -16511,3 +16511,848 @@ Elaborazione: [198] SDS - DECORA - IT.pdf
 [OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
 
 Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
+--- INIZIO SCANSIONE ---
+Directory base: /var/www/html/SitoSchede/pro_ita/PRODOTTI/
+Filtro file: Inizia con 'SDS - ' AND contiene ' IT - ' AND finisce con '.pdf'
+Elaborazione: [001] SDS - SUPER TRASPIRA BIANCO - IT - Rev. 3.pdf
+Elaborazione: [002] SDS - TYRKYS - BIANCO - IT Rev. 1.pdf
+Elaborazione: [003] SDS - NEFRIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [004] SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [005] SDS - TITANIT BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [006] SDS - TITANIT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [007] SDS - RETITAN BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [008] SDS - UNICO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [009] SDS - UNICO PLUS BIANCO - IT - Rev. 2.pdf
+Elaborazione: [010] SDS - LAVABILE BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [011] SDS - LAVABILE BASE BO - IT - Rev. 2.pdf
+Elaborazione: [012] SDS - ONYX LAVABILE - BIANCO - IT - Rev. 02.pdf
+Elaborazione: [013] SDS - AMETYST WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [014] SDS - AMETYST BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [015] SDS - AMETYST BASE BO - IT - Rev. 2.pdf
+Elaborazione: [016] SDS - CORAL BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [020] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT Rev. n. 3.pdf
+Elaborazione: [024] SDS - REMOLD ADDITIVO - IT - Rev. 1.pdf
+Elaborazione: [026] SDS - PURA PITTURA NATURALE ANTIMUFFA BASE BIANCA - IT - Rev. 4.pdf
+Elaborazione: [030] SDS - JANTAR FISSATIVO CONSOLIDANTE - IT - Rev. 3.pdf
+Elaborazione: [031] SDS - FONDORECOAT LISCIO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [032] SDS - FONDORECOAT SABBIATO BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [033] SDS - FONDORECOAT SABBIATO BASE BO - IT - Rev. 2.pdf
+Elaborazione: [034] SDS - FONDO REGRUND BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [035] SDS - FONDO REFINE BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [036] SDS - FONDO REFINE BASE BO - IT - Rev. 3.pdf
+Elaborazione: [037] SDS - REFONDO SABBIATO BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [038] SDS - REFONDO BIANCO - IT - Rev. 3.pdf
+Elaborazione: [040] SDS - QUARZO BIANCO - IT - Rev. 2.pdf
+Elaborazione: [041] SDS - ZIRKON WHITE BIANCO - IT - Rev. 2.pdf
+Elaborazione: [042] SDS - ZIRKONBASEBIANCA - IT - Rev. 2.pdf
+Elaborazione: [043] SDS - ZIRKON BASE BO - IT - Rev. 2.pdf
+Elaborazione: [044] SDS - ESTCEM BASE BIANCA - IT - Rev. 2.pdf
+Elaborazione: [045] SDS - ESTCEM BASE BO - IT - Rev. 2.pdf
+Elaborazione: [046] SDS - DIAMANT BASE BIANCA - IT - Rev. 3.pdf
+Elaborazione: [047] SDS - DIAMANT BASE BO - IT - Rev. 2.pdf
+Elaborazione: [080] SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf
+Elaborazione: [090] SDS - RESTUCCO - IT - Rev. 2.pdf
+Elaborazione: [091] SDS - USA20 - PLASTER MIX - IT - Rev. 2.pdf
+Elaborazione: [093] SDS - USA20GF - READY FINE - IT - Rev. 2.pdf
+Elaborazione: [100] SDS - RECOAT 0.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [101] SDS - RECOAT 0.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [102] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [103] SDS - RECOAT 0.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [110] SDS - RECOAT 1.0 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [111] SDS - RECOAT 1.0 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [112] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [113] SDS - RECOAT 1.0 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [130] SDS - RECOAT 1.2 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [131] SDS - RECOAT 1.2 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [132] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [133] SDS - RECOAT 1.2 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [140] SDS - RECOAT 1.5 MM ACRILICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [141] SDS - RECOAT 1.5 MM ACRILICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [142] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BIANCA - IT - Rev. 1.pdf
+Elaborazione: [143] SDS - RECOAT 1.5 MM ACRIL-SILOSSANICO BASE BO - IT - Rev. 1.pdf
+Elaborazione: [198] SDS - DECORA - IT.pdf
+
+[OK] CSV creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.csv
+[OK] JSON creato: /var/www/html/SitoSchede/pro_ita/PRODOTTI/riepilogo_sds.json
+
+Operazione completata. Elaborati 57 file.
