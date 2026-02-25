@@ -568,5 +568,15 @@
         "Caratteristiche Particelle": "N/D",
         "VOC Espressi": "N/D",
         "Limite Massimo VOC": "N/D"
+    },
+    {
+        "Numero Scheda": "200",
+        "Nome File": "SDS - REONYX BASE BIANCA - IT - Rev. 3.pdf",
+        "Nome Prodotto": "REONYX base bianca",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "6.05",
+        "Limite Massimo VOC": "30.00"
     }
 ]
