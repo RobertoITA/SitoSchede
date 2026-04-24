@@ -360,6 +360,26 @@
         "Limite Massimo VOC": "40.00"
     },
     {
+        "Numero Scheda": "050",
+        "Nome File": "SDS - RESAND 1.0 BASE BIANCA - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RESAND 1.0 MM BASE BIANCA",
+        "Elementi Etichetta": "EUH071, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H373, H400, H410, H412, P261, P273, P280, P313, P333, P362, P364",
+        "Peso Specifico (g/cm3)": "1.64 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "7.04",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "051",
+        "Nome File": "SDS - RESAND 1.0 BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "RESAND 1.0 MM BASE BO",
+        "Elementi Etichetta": "EUH071, H301, H302, H310, H311, H314, H315, H317, H318, H319, H330, H373, H400, H410, H412, P261, P273, P280, P313, P333, P362, P364",
+        "Peso Specifico (g/cm3)": "1.64 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "7.04",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
         "Numero Scheda": "080",
         "Nome File": "SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf",
         "Nome Prodotto": "RE-23",
