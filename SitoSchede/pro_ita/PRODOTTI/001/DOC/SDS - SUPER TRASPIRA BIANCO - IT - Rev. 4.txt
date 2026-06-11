@@ -1,0 +1,665 @@
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  1 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+Scheda di Dati di Sicurezza
+Conforme all'Allegato II del REACH - Regolamento (UE) 2020/878
+SEZIONE 1. Identificazione della sostanza/miscela e della società/impresa
+1.1. Identificatore del prodotto
+Denominazione SUPER TRASPIRA BIANCO
+1.2. Usi identificati pertinenti della sostanza o della miscela e usi sconsigliati
+Descrizione/Utilizzo Prodotto verniciante
+Usi Identificati Industriali Professionali Consumo
+Applicazione Prodotto verniciante SU: 19.
+ERC: 8a, 8d.
+PROC: 10, 11, 13, 7, 8b.
+PC: 9a.
+LCS: IS.
+SU: 19.
+ERC: 8a, 8d.
+PROC: 10, 11, 13, 8a.
+PC: 9a.
+LCS: PW.
+SU: 19.
+ERC: 8a, 8d.
+PROC: 10, 11, 13, 8a.
+PC: 9a.
+LCS: C.
+Produzione prodotto verniciante ERC: 2.
+PROC: 5, 8b, 9.
+PC: 9a.
+LCS: F, M.
+         -        -
+1.3. Informazioni sul fornitore della scheda di dati di sicurezza
+Ragione Sociale ITALMONT S.R.L.
+Indirizzo VIA IV NOVEMBRE 13
+Località e Stato 63078 Spinetoli (AP)
+ITALIA
+tel. +39 0736 899238
+fax +39 0736 899489
+e-mail della persona competente,
+responsabile della scheda dati di sicurezza info@italmont.it
+Fornitore: ITALMONT S.R.L.
+1.4. Numero telefonico di emergenza
+Per informazioni urgenti rivolgersi a CAV "Ospedale Pediatrico Bambino Gesù" Roma Tel. (+39) 06.6859.3726
+CAV "Azienda Ospedaliera Università di Foggia" - Foggia Tel. 800.183.459
+CAV "Azienda Ospedaliera A. Cardarelli" - Napoli Tel. (+39) 081.545.3333
+CAV Policlinico "Umberto I" - Roma Tel. (+39) 06.4997.8000
+CAV Policlinico "A. Gemelli" - Roma Tel. (+39) 06.305.4343
+CAV Azienda Ospedaliera "Careggi" U.O. Tossicologia Medica - Firenze Tel. (+39)
+055.794.7819
+CAV Centro Nazionale di Informazione Tossicologica - Pavia Tel. (+39) 0382 24.444
+CAV Ospedale Niguarda - Milano Tel. (+39) 02.66.1010.29
+CAV Azienda Ospedaliera Papa Giovanni XXIII - Bergamo Tel. 800.88.33.00
+CAV Centro antiveleni Veneto - Verona Tel. 800.011.858
+SEZIONE 2. Identificazione dei pericoli
+2.1. Classificazione della sostanza o della miscela
+Il prodotto non è classificato pericoloso ai sensi delle disposizioni di cui al Regolamento (CE) 1272/2008 (CLP).
+Il prodotto, comunque, contenendo sostanze pericolose in concentrazione tale da essere dichiarate alla sezione n.3, richiede una scheda
+dati di sicurezza con informazioni adeguate, in conformità al Regolamento (UE) 2020/878.
+Classificazione e indicazioni di pericolo: --
+2.2. Elementi dell’etichetta
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  2 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 2. Identificazione dei pericoli ... / >>
+Etichettatura di pericolo ai sensi del Regolamento (CE) 1272/2008 (CLP) e successive modifiche ed adeguamenti.
+Pittogrammi di pericolo: --
+Avvertenza: --
+Indicazioni di pericolo:
+EUH210 Scheda dati di sicurezza disponibile su richiesta.
+EUH208 Contiene: MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E
+2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+Può provocare una reazione allergica.
+Consigli di prudenza:
+P501 Smaltire il prodotto / recipiente in conformità con le disposizioni locali e nazionali
+P102 Tenere fuori dalla portata dei bambini.
+P101 In caso di consultazione di un medico, tenere a disposizione il contenitore o l'etichetta del prodotto.
+VOC (Direttiva 2004/42/CE) :
+Pitture opache per pareti e soffitti interni (gloss < 25@60°).
+VOC espressi in g/litro di prodotto pronto all'uso : 6.01
+Limite massimo : 30.00
+2.3. Altri pericoli
+In base ai dati disponibili, il prodotto non contiene sostanze PBT o vPvB in percentuale ≥ a 0,1%.
+Il prodotto non contiene sostanze aventi proprietà di interferenza con il sistema endocrino in concentrazione ≥ 0,1%.
+SEZIONE 3. Composizione/informazioni sugli ingredienti
+3.2. Miscele
+Contiene:
+Identificazione Conc. % Classificazione 1272/2008 (CLP)
+CALCIO CARBONATO
+INDEX 60.1
+CE 207-439-9
+CAS 471-34-1
+TALCO
+INDEX 1.34
+CE 238-877-9
+CAS 14807-96-6
+MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E 2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+INDEX 613-167-00-5 0.00148 Acute Tox. 2 H310, Acute Tox. 2 H330, Acute Tox. 3 H301, Skin Corr. 1C
+H314, Eye Dam. 1 H318, Skin Sens. 1A H317, Aquatic Acute 1 H400 M=100,
+Aquatic Chronic 1 H410 M=100, EUH071, Nota di classificazione secondo
+l'allegato VI del Regolamento CLP: B
+CE Skin Corr. 1C H314: ≥ 0.6%, Skin Irrit. 2 H315: ≥ 0.06% - < 0.6%, Skin Sens.
+1A H317: ≥ 0.0015%, Eye Dam. 1 H318: ≥ 0.6%, Eye Irrit. 2 H319: ≥ 0.06% - <
+0.6%
+CAS 55965-84-9 STA Orale: 100 mg/kg, LD50 Cutanea: 87.12 mg/kg, LC50 Inalazione
+nebbie/polveri: 0.171 mg/l/4h
+Il testo completo delle indicazioni di pericolo (H) è riportato alla sezione 16 della scheda.
+SEZIONE 4. Misure di primo soccorso
+4.1. Descrizione delle misure di primo soccorso
+Non sono attesi effetti tali da richiedere l’attuazione di speciali misure di primo soccorso. Le informazioni che seguono sono indicazioni
+pratiche di corretto comportamento in caso di contatto con un prodotto chimico anche non pericoloso.
+In caso di dubbio o in presenza di sintomi contattare un medico e mostrargli questo documento.
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  3 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 4. Misure di primo soccorso ... / >>
+In caso di sintomi più gravi, chiamare il 118 per ottenere soccorso sanitario immediato.
+OCCHI: Rimuovere, se presenti, le lenti a contatto se la situazione consente di effettuare l’operazione con facilità. Lavarsi immediatamente
+ed abbondantemente con acqua per almeno 15 minuti, aprendo bene le palpebre. Consultare subito un medico.
+PELLE: Togliere gli indumenti contaminati. Lavare immediatamente ed abbondantemente con acqua corrente (e sapone se possibile).
+Consultare un medico. Evitare ulteriori contatti con gli indumenti contaminati.
+INGESTIONE: Non indurre il vomito se non espressamente autorizzati dal medico. Non somministrare nulla per via orale se il soggetto è
+incosciente. Consultare subito un medico.
+INALAZIONE: Portare il soggetto all'aria aperta, lontano dal luogo dell'incidente. Consultare subito un medico.
+Protezione dei soccorritori
+E’ buona norma per il soccorritore che presta aiuto ad un soggetto, che è stato esposto ad una sostanza chimica o ad una miscela,
+indossare dispositivi di protezione individuale. La natura di tali protezioni dipende dalla pericolosità della sostanza o della miscela, dalla
+modalità di esposizione e dall’entità della contaminazione. In assenza di altre indicazioni più specifiche, si raccomanda di utilizzare guanti
+monouso in caso di possibile contatto con liquidi biologici. Per la tipologia di DPI adatti per le caratteristiche della sostanza o della miscela,
+fare riferimento alla sezione 8.
+4.2. Principali sintomi ed effetti, sia acuti che ritardati
+Non sono note informazioni specifiche su sintomi ed effetti provocati dal prodotto.
+EFFETTI RITARDATI: In base alle informazioni attualmente a disposizione, non sono noti casi di effetti ritardati successivi all’esposizione a
+questo prodotto.
+4.3. Indicazione dell’eventuale necessità di consultare immediatamente un medico e di trattamenti speciali
+In caso di sintomi, sia acuti che ritardati, consultare un medico.
+Mezzi da avere a disposizione sul luogo di lavoro per il trattamento specifico ed immediato
+Acqua corrente per il lavaggio cutaneo e oculare.
+SEZIONE 5. Misure di lotta antincendio
+5.1. Mezzi di estinzione
+MEZZI DI ESTINZIONE IDONEI
+I mezzi di estinzione sono quelli tradizionali: anidride carbonica, schiuma, polvere ed acqua nebulizzata.
+MEZZI DI ESTINZIONE NON IDONEI
+Nessuno in particolare.
+5.2. Pericoli speciali derivanti dalla sostanza o dalla miscela
+PERICOLI DOVUTI ALL'ESPOSIZIONE IN CASO DI INCENDIO
+Evitare di respirare i prodotti di combustione.
+5.3. Raccomandazioni per gli addetti all’estinzione degli incendi
+INFORMAZIONI GENERALI
+Raffreddare con getti d'acqua i contenitori per evitare la decomposizione del prodotto e lo sviluppo di sostanze potenzialmente pericolose
+per la salute. Indossare sempre l'equipaggiamento completo di protezione antincendio. Raccogliere le acque di spegnimento che non
+devono essere scaricate nelle fognature. Smaltire l'acqua contaminata usata per l'estinzione ed il residuo dell'incendio secondo le norme
+vigenti.
+EQUIPAGGIAMENTO
+Indumenti normali per la lotta al fuoco, come un autorespiratore ad aria compressa a circuito aperto (EN 137), completo antifiamma
+(EN469), guanti antifiamma (EN 659) e stivali per Vigili del Fuoco (HO A29 oppure A30).
+SEZIONE 6. Misure in caso di rilascio accidentale
+6.1. Precauzioni personali, dispositivi di protezione e procedure in caso di emergenza
+Bloccare la perdita se non c'è pericolo.
+Indossare adeguati dispositivi di protezione (compresi i dispositivi di protezione individuale di cui alla sezione 8 della scheda dati di
+sicurezza) onde prevenire contaminazioni della pelle, degli occhi e degli indumenti personali. Queste indicazioni sono valide sia per gli
+addetti alle lavorazioni che per gli interventi in emergenza.
+6.2. Precauzioni ambientali
+Impedire che il prodotto penetri nelle fognature, nelle acque superficiali, nelle falde freatiche.
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  4 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 6. Misure in caso di rilascio accidentale ... / >>
+6.3. Metodi e materiali per il contenimento e per la bonifica
+Aspirare il prodotto fuoriuscito in recipiente idoneo. Valutare la compatibilità del recipiente da utilizzare con il prodotto, verificando la sezione
+10. Assorbire il rimanente con materiale assorbente inerte.
+Provvedere ad una sufficiente areazione del luogo interessato dalla perdita. Lo smaltimento del materiale contaminato deve essere
+effettuato conformemente alle disposizioni del punto 13.
+6.4. Riferimento ad altre sezioni
+Eventuali informazioni riguardanti la protezione individuale e lo smaltimento sono riportate alle sezioni 8 e 13.
+SEZIONE 7. Manipolazione e immagazzinamento
+7.1. Precauzioni per la manipolazione sicura
+Manipolare il prodotto dopo aver consultato tutte le altre sezioni di questa scheda di sicurezza. Evitare la dispersione del prodotto
+nell'ambiente. Non mangiare, nè bere, nè fumare durante l'impiego. Togliere gli indumenti contaminati e i dispositivi di protezione prima di
+accedere alle zone in cui si mangia.
+7.2. Condizioni per lo stoccaggio sicuro, comprese eventuali incompatibilità
+Conservare solo nel contenitore originale. Conservare i recipienti chiusi, in luogo ben ventilato, al riparo dai raggi solari diretti. Conservare i
+contenitori lontano da eventuali materiali incompatibili, verificando la sezione 10.
+7.3. Usi finali particolari
+Informazioni non disponibili
+SEZIONE 8. Controlli dell'esposizione/della protezione individuale
+8.1. Parametri di controllo
+Riferimenti normativi:
+DEU Deutschland WirkungDosisNOAELMAK-und BAT-Werte-Liste 2024 Ständige Senatskommission zur Prüfung
+gesundheitsschädlicher Arbeitsstoffe
+ESP España Límites de exposición profesional para agentes químicos en España 2024
+FRA France Valeurs limites d'exposition professionnelle aux agents chimiques en FranceDécret n° 2021-1849
+du 28 décembre 2021
+NLD Nederland Regeling van de Minister van Sociale Zaken en Werkgelegenheid van 13 mei2024, nr.
+2024-0000092805, tot wijziging van deArbeidsomstandighedenregeling in verband met de
+implementatie vanRichtlijn 2022/431
+POL Polska ROZPORZĄDZENIE MINISTRA RODZINY, PRACY I POLITYKI SPOŁECZNEJ z dnia 24
+czerwca 2024 r. zmieniające rozporządzenie w sprawie najwyższych dopuszczalnych stężeń i
+natężeń czynników szkodliwych dla zdrowia w środowisku pracy
+ROU România HOTĂRÂRE nr. 179 din 28 februarie 2024 pentru modificarea şi completarea Hotărârii Guvernului
+nr. 1.093/2006 privind stabilirea cerinţelor minime de securitate şi sănătate pentru protecţia
+lucrătorilor împotriva riscurilor legate de expunerea la agenţi ca
+GBR United Kingdom EH40/2005 Workplace exposure limits (Fourth Edition 2020)
+ACGIH ACGIH 2025
+TALCO
+Valore limite di soglia
+Tipo Stato TWA/8h STEL/15min Note / Osservazioni
+mg/m3 ppm mg/m3 ppm
+VLA ESP    2 RESPIR
+TGG NLD 0.25 RESPIR
+NDS/NDSCh POL    4 INALAB
+NDS/NDSCh POL    1 RESPIR
+TLV ROU    2
+WEL GBR    1 RESPIR
+ACGIH    2 RESPIR
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  5 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 8. Controlli dell'esposizione/della protezione individuale ... / >>
+MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E 2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+Valore limite di soglia
+Tipo Stato TWA/8h STEL/15min Note / Osservazioni
+mg/m3 ppm mg/m3 ppm
+MAK DEU  0.2  0.4 INALAB
+NDS/NDSCh POL  0.2  0.4 PELLE
+CALCIO CARBONATO
+Valore limite di soglia
+Tipo Stato TWA/8h STEL/15min Note / Osservazioni
+mg/m3 ppm mg/m3 ppm
+VLEP FRA   10
+NDS/NDSCh POL   10 INALAB
+ACGIH   10 INALAB
+ACGIH    3 RESPIR
+Legenda:
+(C) = CEILING   ;   INALAB = Frazione Inalabile   ;   RESPIR = Frazione Respirabile   ;   TORAC = Frazione Toracica.
+8.2. Controlli dell’esposizione
+Considerato che l'utilizzo di misure tecniche adeguate dovrebbe sempre avere la priorità rispetto agli equipaggiamenti di protezione
+personali, assicurare una buona ventilazione nel luogo di lavoro tramite un'efficace aspirazione locale.
+PROTEZIONE DELLE MANI
+Proteggere le mani con guanti da lavoro di categoria III.
+Per la scelta definitiva del materiale dei guanti da lavoro (rif. norma EN 374) si devono considerare: compatibilità, degradazione, tempo di
+permeazione.
+Nel caso di preparati la resistenza dei guanti da lavoro agli agenti chimici deve essere verificata prima dell'utilizzo in quanto non prevedibile.
+I guanti hanno un tempo di usura che dipende dalla durata e dalla modalità d’uso.
+Proteggere le mani con guanti del tipo indicato di seguito:
+Materiale: Gomma nitrilica (NBR)
+Spessore: 0.3 mm
+Lo spessore dei guanti deve essere selezionato in base al tempo di permeazione minimo richiesto.
+Tempo di permeazione: 30 min
+La resistenza dei guanti dipende da vari fattori, come la temperatura ed altri fattori ambientali.
+PROTEZIONE DELLA PELLE
+Indossare abiti da lavoro con maniche lunghe e calzature di sicurezza per uso professionale di categoria I (rif. Regolamento 2016/425 e
+norma EN ISO 20344). Lavarsi con acqua e sapone dopo aver rimosso gli indumenti protettivi.
+PROTEZIONE DEGLI OCCHI
+Si consiglia di indossare occhiali protettivi ermetici (rif. norma EN ISO 16321).
+PROTEZIONE RESPIRATORIA
+L’utilizzo di mezzi di protezione delle vie respiratorie è necessario in caso le misure tecniche adottate non siano sufficienti per limitare
+l’esposizione del lavoratore ai valori di soglia presi in considerazione. Si consiglia di indossare una maschera con filtro di tipo B la cui classe
+(1, 2 o 3) dovrà essere scelta in relazione alla concentrazione limite di utilizzo. (rif. norma EN 14387).
+Nel caso in cui la sostanza considerata sia inodore o la sua soglia olfattiva sia superiore al relativo TLV-TWA e in caso di emergenza,
+indossare un autorespiratore ad aria compressa a circuito aperto (rif. norma EN 137) oppure un respiratore a presa d'aria esterna (rif. norma
+EN 138). Per la corretta scelta del dispositivo di protezione delle vie respiratorie, fare riferimento alla norma EN 529.
+CONTROLLI DELL’ESPOSIZIONE AMBIENTALE
+Le emissioni da processi produttivi, comprese quelle da apparecchiature di ventilazione dovrebbero essere controllate ai fini del rispetto
+della normativa di tutela ambientale.
+SEZIONE 9. Proprietà fisiche e chimiche
+9.1. Informazioni sulle proprietà fisiche e chimiche fondamentali
+Proprietà Valore Informazioni
+Stato Fisico liquido denso
+Colore bianco
+Odore lieve
+Punto di fusione o di congelamento non disponibile
+Punto di ebollizione iniziale 100 °C Sostanza:ACQUA>
+Punto    di    ebollizione  iniziale:  100  °C
+Infiammabilità non infiammabile
+Limite inferiore esplosività non disponibile
+Limite superiore esplosività non disponibile
+Punto di infiammabilità 60 °C>
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  6 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 9. Proprietà fisiche e chimiche ... / >>
+Temperatura di autoaccensione non disponibile
+Temperatura di decomposizione non disponibile
+pH 8 Metodo:pHmetro
+Viscosità cinematica 0.03 m2/s Metodo:Tazza Ford
+Solubilità non disponibile
+Coefficiente di ripartizione: n-ottanolo/acqua non disponibile
+Tensione di vapore non disponibile
+Densità e/o Densità relativa 1.2 g/cm3 Metodo:Picnometro
+Densità di vapore relativa non disponibile
+Caratteristiche delle particelle non applicabile
+9.2. Altre informazioni
+9.2.1. Informazioni relative alle classi di pericoli fisici
+Informazioni non disponibili
+9.2.2. Altre caratteristiche di sicurezza
+Informazioni non disponibili
+SEZIONE 10. Stabilità e reattività
+10.1. Reattività
+Non vi sono particolari pericoli di reazione con altre sostanze nelle normali condizioni di impiego.
+CALCIO CARBONATO
+Si decompone a temperature superiori a 800°C/1472°F.
+10.2. Stabilità chimica
+Il prodotto è stabile nelle normali condizioni di impiego e di stoccaggio.
+10.3. Possibilità di reazioni pericolose
+In condizioni di uso e stoccaggio normali non sono prevedibili reazioni pericolose.
+10.4. Condizioni da evitare
+Nessuna in particolare. Attenersi tuttavia alle usuali cautele nei confronti dei prodotti chimici.
+10.5. Materiali incompatibili
+CALCIO CARBONATO
+Incompatibile con: acidi.
+10.6. Prodotti di decomposizione pericolosi
+CALCIO CARBONATO
+Può sviluppare: ossidi di calcio,ossidi di carbonio.
+SEZIONE 11. Informazioni tossicologiche
+In mancanza di dati tossicologici sperimentali sul prodotto stesso, gli eventuali pericoli del prodotto per la salute sono stati valutati in base
+alle proprietà delle sostanze contenute, secondo i criteri previsti dalla normativa di riferimento per la classificazione.
+Considerare perciò la concentrazione delle singole sostanze pericolose eventualmente citate in sez. 3, per valutare gli effetti tossicologici
+derivanti dall’esposizione al prodotto.
+11.1. Informazioni sulle classi di pericolo definite nel Regolamento (CE) n. 1272/2008
+Metabolismo, cinetica, meccanismo di azione e altre informazioni
+Informazioni non disponibili
+Informazioni sulle vie probabili di esposizione
+Informazioni non disponibili
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  7 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 11. Informazioni tossicologiche ... / >>
+Effetti immediati, ritardati e ed effetti cronici derivanti da esposizioni a breve e lungo termine
+Informazioni non disponibili
+Effetti interattivi
+Informazioni non disponibili
+TOSSICITÀ ACUTA
+ATE (Inalazione) della miscela: Non classificato (nessun componente rilevante)
+ATE (Orale) della miscela: Non classificato (nessun componente rilevante)
+ATE (Cutanea) della miscela: Non classificato (nessun componente rilevante)
+CALCIO CARBONATO
+6450 mg/kg RatLD50 (Orale):
+TALCO
+> 2.1 mg/l/4h RatLC50 (Inalazione nebbie/polveri):
+MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E 2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+87.12 mg/kg RabbitLD50 (Cutanea):
+457 mg/kg RatLD50 (Orale):
+0.171 mg/l/4h RatLC50 (Inalazione nebbie/polveri):
+CORROSIONE CUTANEA / IRRITAZIONE CUTANEA
+Non risponde ai criteri di classificazione per questa classe di pericolo
+GRAVI DANNI OCULARI / IRRITAZIONE OCULARE
+Non risponde ai criteri di classificazione per questa classe di pericolo
+SENSIBILIZZAZIONE RESPIRATORIA O CUTANEA
+Può provocare una reazione allergica.
+Contiene:
+MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E 2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+MUTAGENICITÀ SULLE CELLULE GERMINALI
+Non risponde ai criteri di classificazione per questa classe di pericolo
+CANCEROGENICITÀ
+Non risponde ai criteri di classificazione per questa classe di pericolo
+TALCO
+Valutazione generale IARC: L'uso perineale di polvere per il corpo a base di talco è probabilmente cancerogeno per l'uomo (Gruppo
+2B). Il talco inalato non contenente amianto o fibre asbestiformi non è classificabile in quanto tale cancerogenicità (Gruppo 3).
+TOSSICITÀ PER LA RIPRODUZIONE
+Non risponde ai criteri di classificazione per questa classe di pericolo
+TOSSICITÀ SPECIFICA PER ORGANI BERSAGLIO (STOT) - ESPOSIZIONE SINGOLA
+Non risponde ai criteri di classificazione per questa classe di pericolo
+TOSSICITÀ SPECIFICA PER ORGANI BERSAGLIO (STOT) - ESPOSIZIONE RIPETUTA
+Non risponde ai criteri di classificazione per questa classe di pericolo
+PERICOLO IN CASO DI ASPIRAZIONE
+Non risponde ai criteri di classificazione per questa classe di pericolo
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  8 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 11. Informazioni tossicologiche ... / >>
+11.2. Informazioni su altri pericoli
+In base ai dati disponibili, il prodotto non contiene sostanze elencate nelle principali liste europee di potenziali o sospetti interferenti
+endocrini con effetti sulla salute umana oggetto di valutazione.
+SEZIONE 12. Informazioni ecologiche
+Utilizzare secondo le buone pratiche lavorative, evitando di disperdere il prodotto nell'ambiente. Avvisare le autorità competenti se il
+prodotto ha raggiunto corsi d'acqua o se ha contaminato il suolo o la vegetazione.
+12.1. Tossicità
+MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E 2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+LC50 - Pesci 0.19 mg/l/96h Oncorhynchus mykiss
+EC50 - Crostacei 0.16 mg/l/48h Daphnia magna
+EC50 - Alghe / Piante Acquatiche 0.0052 mg/l/72h Skeletonema costatum
+NOEC Cronica Pesci 0.02 mg/l Danio rerio
+NOEC Cronica Crostacei 0.1 mg/l Daphnia magna
+NOEC Cronica Alghe / Piante Acquatiche 0.00049 mg/l Skeletonema costatum
+12.2. Persistenza e degradabilità
+CALCIO CARBONATO
+Solubilità in acqua 0,1 - 100 mg/l
+TALCO
+Solubilità in acqua < 0.1 mg/l
+MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E 2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+Solubilità in acqua > 10000 mg/l
+NON rapidamente degradabile
+12.3. Potenziale di bioaccumulo
+MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E 2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+Coefficiente di ripartizione: n-ottanolo/acqua 0.75
+BCF < 54
+12.4. Mobilità nel suolo
+Informazioni non disponibili
+12.5. Risultati della valutazione PBT e vPvB
+In base ai dati disponibili, il prodotto non contiene sostanze PBT o vPvB in percentuale ≥ a 0,1%.
+12.6. Proprietà di interferenza con il sistema endocrino
+In base ai dati disponibili, il prodotto non contiene sostanze elencate nelle principali liste europee di potenziali o sospetti interferenti
+endocrini con effetti sull’ambiente oggetto di valutazione.
+12.7. Altri effetti avversi
+Informazioni non disponibili
+SEZIONE 13. Considerazioni sullo smaltimento
+13.1. Metodi di trattamento dei rifiuti
+Riutilizzare, se possibile. I residui del prodotto tal quali sono da considerare rifiuti speciali non pericolosi.
+Lo smaltimento deve essere affidato ad una società autorizzata alla gestione dei rifiuti, nel rispetto della normativa nazionale ed
+eventualmente locale.
+La gestione dei rifiuti originati dall'uso o dalla dispersione di questo prodotto deve essere organizzata nel rispetto delle norme relative alla
+sicurezza sul lavoro. Si veda la sezione 8 per l'eventuale necessità di dotazione di DPI.
+IMBALLAGGI CONTAMINATI
+Gli imballaggi contaminati devono essere inviati a recupero o smaltimento nel rispetto delle norme nazionali sulla gestione dei rifiuti.
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  9 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 14. Informazioni sul trasporto
+Il prodotto non è da considerarsi pericoloso ai sensi delle disposizioni vigenti in materia di trasporto di merci pericolose su strada (A.D.R.),
+su ferrovia (RID), via mare (IMDG Code) e via aerea (IATA).
+14.1. Numero ONU o numero ID
+non applicabile
+14.2. Designazione ufficiale ONU di trasporto
+non applicabile
+14.3. Classi di pericolo connesso al trasporto
+non applicabile
+14.4. Gruppo d'imballaggio
+non applicabile
+14.5. Pericoli per l’ambiente
+non applicabile
+14.6. Precauzioni speciali per gli utilizzatori
+non applicabile
+14.7. Trasporto marittimo alla rinfusa conformemente agli atti dell’IMO
+Informazione non pertinente
+SEZIONE 15. Informazioni sulla regolamentazione
+15.1. Disposizioni legislative e regolamentari su salute, sicurezza e ambiente specifiche per la sostanza o la miscela
+NessunaCategoria Seveso - Direttiva 2012/18/UE:
+Restrizioni relative al prodotto o alle sostanze contenute secondo l'Allegato XVII Regolamento (CE) 1907/2006
+Sostanze contenute
+75Punto GLIOSSALE
+75Punto MASSA DI REAZIONE DI 5-CLORO-2- METIL-2H-ISOTIAZOL-3-ONE E
+2-METIL-2H-ISOTIAZOL-3-ONE (3:1)
+75Punto CALCIO CARBONATO
+Regolamento (UE) 2019/1148 - relativo all'immissione sul mercato e all'uso di precursori di esplosivi
+non applicabile
+Sostanze in Candidate List (Art. 59 REACH)
+In base ai dati disponibili, il prodotto non contiene sostanze SVHC in percentuale ≥ a 0,1%.
+Sostanze soggette ad autorizzazione (Allegato XIV REACH)
+Nessuna
+Sostanze soggette ad obbligo di notifica di esportazione Regolamento (UE) 649/2012:
+Nessuna
+Sostanze soggette alla Convenzione di Rotterdam:
+Nessuna
+Sostanze soggette alla Convenzione di Stoccolma:
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  10 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 15. Informazioni sulla regolamentazione ... / >>
+Nessuna
+Controlli Sanitari
+Informazioni non disponibili
+VOC (Direttiva 2004/42/CE) :
+Pitture opache per pareti e soffitti interni (gloss < 25@60°).
+15.2. Valutazione della sicurezza chimica
+Non è stata elaborata una valutazione di sicurezza chimica per la miscela / per le sostanze indicate in sezione 3.
+SEZIONE 16. Altre informazioni
+Testo delle indicazioni di pericolo (H) citate alle sezioni 2-3 della scheda:
+Acute Tox. 2 Tossicità acuta, categoria 2
+Acute Tox. 3 Tossicità acuta, categoria 3
+Skin Corr. 1C Corrosione cutanea, categoria 1C
+Skin Corr. 1 Corrosione cutanea, categoria 1
+Eye Dam. 1 Lesioni oculari gravi, categoria 1
+Eye Irrit. 2 Irritazione oculare, categoria 2
+Skin Irrit. 2 Irritazione cutanea, categoria 2
+Skin Sens. 1A Sensibilizzazione cutanea, categoria 1A
+Aquatic Acute 1 Pericoloso per l’ambiente acquatico, tossicità acuta, categoria 1
+Aquatic Chronic 1 Pericoloso per l’ambiente acquatico, tossicità cronica, categoria 1
+H310 Letale per contatto con la pelle.
+H330 Letale se inalato.
+H301 Tossico se ingerito.
+H314 Provoca gravi ustioni cutanee e gravi lesioni oculari.
+H318 Provoca gravi lesioni oculari.
+H319 Provoca grave irritazione oculare.
+H315 Provoca irritazione cutanea.
+H317 Può provocare una reazione allergica cutanea.
+H400 Molto tossico per gli organismi acquatici.
+H410 Molto tossico per gli organismi acquatici con effetti di lunga durata.
+EUH071 Corrosivo per le vie respiratorie.
+EUH210 Scheda dati di sicurezza disponibile su richiesta.
+Decodifica dei descrittori degli usi:
+2ERC Formulazione di preparati
+8aERC Ampio uso dispersivo indoordi coadiuvanti tecnologici in sistemi aperti
+8dERC Uso generalizzato di coadiuvanti tecnologici non reattivi (senza inclusione all’interno o sulla superficie di un
+articolo, uso in esterni)
+CLCS Uso al consumo
+FLCS Formulazione o reimballaggio
+ISLCS Uso presso siti industriali
+MLCS Fabbricazione
+PWLCS Uso generalizzato da parte di operatori professionali
+9aPC Rivestimenti e vernici, diluenti, soluzioni decapanti
+10PROC Applicazione con rulli o pennelli
+11PROC Applicazioni a spruzzo non industriali
+13PROC Trattamento di articoli per immersione e colata
+5PROC Miscelazione o mescolamento in processi a lotti
+7PROC Applicazioni a spruzzo industriali
+8aPROC Trasferimento di una sostanza o di un preparato (riempimento/svuotamento) presso strutture non dedicate
+8bPROC Trasferimento di una sostanza o di una miscela (riempimento/svuotamento) presso strutture dedicate
+9PROC Trasferimento di una sostanza o di un preparato in piccoli contenitori (linea di riempimento dedicata,
+compresa la pesatura)
+19SU Costruzioni
+LEGENDA:
+- ADR: Accordo europeo per il trasporto delle merci pericolose su strada
+- ATE / STA: Stima Tossicità Acuta
+- CAS: Numero del Chemical Abstract Service 
+- CE: Numero identificativo in ESIS (archivio europeo delle sostanze esistenti)
+- CLP: Regolamento (CE) 1272/2008
+- DNEL: Livello derivato senza effetto
+- EC50: Concentrazione che dà effetto al 50% della popolazione soggetta a test
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  11 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 16. Altre informazioni ... / >>
+- EmS: Emergency Schedule
+- GHS: Sistema armonizzato globale per la classificazione e la etichettatura dei prodotti chimici
+- IATA DGR: Regolamento per il trasporto di merci pericolose della Associazione internazionale del trasporto aereo
+- IC50: Concentrazione di immobilizzazione del 50% della popolazione soggetta a test
+- IMDG: Codice marittimo internazionale per il trasporto delle merci pericolose
+- IMO: International Maritime Organization
+- INDEX: Numero identificativo nell’Allegato VI del CLP
+- LC50: Concentrazione letale 50%
+- LD50: Dose letale 50%
+- OEL: Livello di esposizione occupazionale
+- PBT: Persistente, bioaccumulante e tossico
+- PEC: Concentrazione ambientale prevedibile
+- PEL: Livello prevedibile di esposizione
+- PMT: Persistente, mobile e tossico
+- PNEC: Concentrazione prevedibile priva di effetti
+- REACH: Regolamento (CE) 1907/2006
+- RID: Regolamento per il trasporto internazionale di merci pericolose su treno
+- TLV: Valore limite di soglia 
+- TLV CEILING: Concentrazione che non deve essere superata durante qualsiasi momento dell’esposizione lavorativa.
+- TWA: Limite di esposizione medio pesato
+- TWA STEL: Limite di esposizione a breve termine
+- VOC: Composto organico volatile
+- vPvB: Molto persistente e molto bioaccumulabile
+- vPvM: Molto persistente e molto mobile
+- WGK: Classe di pericolosità acquatica (Germania).
+BIBLIOGRAFIA GENERALE:
+1. Regolamento (CE) 1907/2006 del Parlamento Europeo (REACH)
+2. Regolamento (CE) 1272/2008 del Parlamento Europeo (CLP)
+3. Regolamento (UE) 2020/878 (All. II Regolamento REACH)
+4. Regolamento (CE) 790/2009 del Parlamento Europeo (I Atp. CLP)
+5. Regolamento (UE) 286/2011 del Parlamento Europeo (II Atp. CLP)
+6. Regolamento (UE) 618/2012 del Parlamento Europeo (III Atp. CLP)
+7. Regolamento (UE) 487/2013 del Parlamento Europeo (IV Atp. CLP)
+8. Regolamento (UE) 944/2013 del Parlamento Europeo (V Atp. CLP)
+9. Regolamento (UE) 605/2014 del Parlamento Europeo (VI Atp. CLP)
+10. Regolamento (UE) 2015/1221 del Parlamento Europeo (VII Atp. CLP)
+11. Regolamento (UE) 2016/918 del Parlamento Europeo (VIII Atp. CLP)
+12. Regolamento (UE) 2016/1179 (IX Atp. CLP)
+13. Regolamento (UE) 2017/776 (X Atp. CLP)
+14. Regolamento (UE) 2018/669 (XI Atp. CLP)
+15. Regolamento (UE) 2019/521 (XII Atp. CLP)
+16. Regolamento delegato (UE) 2018/1480 (XIII Atp. CLP)
+17. Regolamento (UE) 2019/1148
+18. Regolamento delegato (UE) 2020/217 (XIV Atp. CLP)
+19. Regolamento delegato (UE) 2020/1182 (XV Atp. CLP)
+20. Regolamento delegato (UE) 2021/643 (XVI Atp. CLP)
+21. Regolamento delegato (UE) 2021/849 (XVII Atp. CLP)
+22. Regolamento delegato (UE) 2022/692 (XVIII Atp. CLP)
+23. Regolamento delegato (UE) 2023/707
+24. Regolamento delegato (UE) 2023/1434 (XIX Atp. CLP)
+25. Regolamento delegato (UE) 2023/1435 (XX Atp. CLP)
+26. Regolamento delegato (UE) 2024/197 (XXI Atp. CLP)
+27. Regolamento delegato (UE) 2024/2564 (XXII Atp. CLP)
+28. Regolamento (UE) 2024/2865
+- The Merck Index. - 10th Edition
+- Handling Chemical Safety
+- INRS - Fiche Toxicologique (toxicological sheet)
+- Patty - Industrial Hygiene and Toxicology
+- N.I. Sax - Dangerous properties of Industrial Materials-7, 1989 Edition
+- Sito Web IFA GESTIS
+- Sito Web Agenzia ECHA
+- Banca dati di modelli di SDS di sostanze chimiche - Ministero della Salute e Istituto Superiore di Sanità
+Nota per l’utilizzatore:
+Le informazioni contenute in questa scheda si basano sulle conoscenze disponibili presso di noi alla data dell’ultima versione. L’utilizzatore
+ITALMONT S.R.L.
+SUPER TRASPIRA BIANCO
+Revisione n.4
+Data revisione 24/03/2026
+Stampata il 24/03/2026
+Pagina n.  12 / 12
+Sostituisce la revisione:3 (Data revisione 10/01/2026)
+EPY 12.1.0 - SDS 1004.14
+SEZIONE 16. Altre informazioni ... / >>
+deve assicurarsi della idoneità e completezza delle informazioni in relazione allo specifico uso del prodotto.
+Non si deve interpretare tale documento come garanzia di alcuna proprietà specifica del prodotto.
+Poichè l'uso del prodotto non cade sotto il nostro diretto controllo, è obbligo dell'utilizzatore osservare sotto la propria responsabilità le leggi
+e le disposizioni vigenti in materia di igiene e sicurezza. Non si assumono responsabilità per usi impropri.
+Fornire adeguata formazione al personale addetto all’utilizzo di prodotti chimici.
+METODI DI CALCOLO DELLA CLASSIFICAZIONE
+Pericoli chimico fisici: La classificazione del prodotto è stata derivata dai criteri stabiliti dal Regolamento CLP Allegato I Parte 2. I metodi di
+valutazione delle proprietà chimico fisiche sono riportati in sezione 9.
+Pericoli per la salute: La classificazione del prodotto è basata sui metodi di calcolo di cui all'Allegato I del CLP Parte 3, salvo che sia
+diversamente indicato in sezione 11.
+Pericoli per l’ambiente: La classificazione del prodotto è basata sui metodi di calcolo di cui all'Allegato I del CLP Parte 4, salvo che sia
+diversamente indicato in sezione 12.
+Modifiche rispetto alla revisione precedente
+Sono state apportate variazioni alle seguenti sezioni:
+03.

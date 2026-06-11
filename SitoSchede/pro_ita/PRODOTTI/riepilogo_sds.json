@@ -10,6 +10,16 @@
         "Limite Massimo VOC": "30.00"
     },
     {
+        "Numero Scheda": "002",
+        "Nome File": "SDS - TYRKYS - BIANCO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "TYRKYS BIANCO",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, EUH211, H301, H310, H314, H315, H317, H318, H319, H330, H400, H410",
+        "Peso Specifico (g/cm3)": "1.54 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "8.22",
+        "Limite Massimo VOC": "30.00"
+    },
+    {
         "Numero Scheda": "003",
         "Nome File": "SDS - NEFRIT BASE BIANCA - IT - Rev. 3.pdf",
         "Nome Prodotto": "NEFRIT base bianca",
