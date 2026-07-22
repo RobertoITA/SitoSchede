@@ -380,6 +380,26 @@
         "Limite Massimo VOC": "40.00"
     },
     {
+        "Numero Scheda": "052",
+        "Nome File": "SDS - REGUM BIANCO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "REGUM BIANCO",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "0.32",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
+        "Numero Scheda": "053",
+        "Nome File": "SDS - REGUM BASE BO - IT - Rev. 1.pdf",
+        "Nome Prodotto": "REGUM BASE BO",
+        "Elementi Etichetta": "EUH071, EUH208, EUH210, H301, H302, H310, H314, H315, H317, H318, H319, H330, H400, H410, P101, P102, P501",
+        "Peso Specifico (g/cm3)": "1.2 g/cm3 Metodo:Picnometro",
+        "Caratteristiche Particelle": "non applicabile",
+        "VOC Espressi": "0.21",
+        "Limite Massimo VOC": "40.00"
+    },
+    {
         "Numero Scheda": "080",
         "Nome File": "SDS - RE-23 BATTERICIDA - IT - Rev. 2.pdf",
         "Nome Prodotto": "RE-23",
