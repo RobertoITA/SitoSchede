@@ -6,34 +6,63 @@
 <title>Consultazione e Download</title>
 <style>
     body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(to bottom, #003000, #003f00 15%, #FFFFFF 38%, #FFFFFF 62%, #630000 85%, #630000);
-            color: #211c3c;
-            text-align: center;
-        }
-/*    body {
         font-family: Arial, sans-serif;
-        background: linear-gradient(to bottom, #333333, #000000);
-        color: white;
-        text-align: center;
         margin: 0;
         padding: 0;
         display: flex;
-        align-items: center;
         justify-content: center;
-        height: 100vh;
-    } */
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #003000, #003f00 15%, #FFFFFF 38%, #FFFFFF 62%, #630000 85%, #630000);
+        color: #211c3c;
+        text-align: center;
+    }
+
+    .contenitore-principale {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 60px; /* Aumentato lo spazio tra i 3 gruppi */
+        padding: 40px;
+        flex-wrap: wrap;
+    }
+
+    .gruppo {
+        position: relative;
+        background: transparent;
+        
+        /* Effetto doppia linea */
+        border: 2px solid #211c3c;
+        outline: 2px solid #211c3c;
+        outline-offset: 4px; /* Spazio tra le due linee */
+        
+        border-radius: 15px;
+        padding: 50px 35px 35px 35px; /* Più spazio interno */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 25px; /* Spazio verticale tra le schede all'interno del gruppo */
+        min-width: 340px;
+    }
+
+    .gruppo-titolo {
+        position: absolute;
+        top: -18px; /* Posizionato per coprire le due linee */
+        left: 50%;
+        transform: translateX(-50%);
+        background: #FFFFFF;
+        padding: 0 15px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #211c3c;
+        white-space: nowrap;
+        letter-spacing: 1px;
+    }
 
     .link-box {
-        width: 300px;
-        height: 150px;
-        margin: 10px;
+        width: 320px;
+        height: 160px; /* Altezza fissa per mantenere le proporzioni */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -42,30 +71,31 @@
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         transition: all 0.3s ease;
+        position: relative;
     }
 
     .link-box:hover {
-        transform: translateY(-5px);
+        transform: translateY(-5px) scale(1.02);
+        z-index: 10;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     }
 
     .link-box a {
         color: rgb(215, 214, 214);
         text-decoration: none;
-        font-size: 24px;
+        font-size: 20px;
+        padding: 15px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
     }
 
-    .ricette-pdf {
-        background: linear-gradient(to bottom, #000000, #015511);
-    }
-
+    .ricette-pdf,
     .sds-componenti-web {
         background: linear-gradient(to bottom, #000000, #015511);
     }
 
-    .sds-st-prodotti {
-        background: linear-gradient(to bottom, #000000, #fd0202);
-    }
-
+    .sds-st-prodotti,
     .vecchie-schede {
         background: linear-gradient(to bottom, #000000, #fd0202);
     }
@@ -77,23 +107,51 @@
 </head>
 <body>
 
-<div class="link-box ricette-pdf" onclick="openRicettePDF()">
-    <a href="#">Consultazione e Download Ricette PDF</a>
-</div>
+<div class="contenitore-principale">
 
-<div class="link-box sds-componenti-web" onclick="openSDSComponentiWeb()">
-    <a href="#">Consultazione e Download SDS Componenti Web</a>
-</div>
+    <!-- GRUPPO SINISTRA: PRODUZIONE (3 schede verdi) -->
+    <div class="gruppo">
+        <div class="gruppo-titolo">PRODUZIONE</div>
 
-<div class="link-box sds-st-prodotti" onclick="openCartella3()">
-    <a href="#">Consultazione e Download SDS e ST dei prodotti ITALMONT SRL</a>
-</div>
+        <div class="link-box ricette-pdf" onclick="openCartella7()">
+            <a href="#">Gestione Schede<br>PRODUZIONE</a>
+        </div>
 
-<div class="link-box vecchie-schede" onclick="openCartella4()">
-    <a href="#">Consultazione e Download Vecchie Schede</a>
-</div>
-<div class="link-box dpi" onclick="openCartella4()">
-    <a href="#">Creazione Schede DPI</a>
+        <div class="link-box ricette-pdf" onclick="openRicettePDF()">
+            <a href="#">Consultazione e Download<br>Ricette PDF</a>
+        </div>
+
+        <div class="link-box sds-componenti-web" onclick="openSDSComponentiWeb()">
+            <a href="#">Consultazione e Download<br>SDS Componenti Web</a>
+        </div>
+    </div>
+
+    <!-- GRUPPO CENTRO: DOCUMENTAZIONE (2 schede rosse) -->
+    <div class="gruppo">
+        <div class="gruppo-titolo">DOCUMENTAZIONE</div>
+
+        <div class="link-box sds-st-prodotti" onclick="openCartella3()">
+            <a href="#">Consultazione e Download<br>SDS e ST dei prodotti<br>ITALMONT SRL</a>
+        </div>
+
+        <div class="link-box vecchie-schede" onclick="openCartella4()">
+            <a href="#">Consultazione e Download<br>Vecchie Schede</a>
+        </div>
+    </div>
+
+    <!-- GRUPPO DESTRA: SERVIZI (2 schede azzurre) -->
+    <div class="gruppo">
+        <div class="gruppo-titolo">SERVIZI</div>
+
+        <div class="link-box dpi" onclick="openCartella5()">
+            <a href="#">Gestione Schede DPI</a>
+        </div>
+
+        <div class="link-box dpi" onclick="openCartella6()">
+            <a href="#">Gestione Schede<br>RIPARAZIONI</a>
+        </div>
+    </div>
+
 </div>
 
 <script>
@@ -113,8 +171,16 @@ function openCartella4() {
     window.location.href = '/SitoSchede/pro_ita/index_old.html';
 }
 
-function openCartella4() {
+function openCartella5() {
     window.location.href = 'http://schede:19000';
+}
+
+function openCartella6() {
+    window.location.href = 'http://192.168.0.100:19001';
+}
+
+function openCartella7() {
+    window.location.href = 'http://schede:3010';
 }
 </script>
 
