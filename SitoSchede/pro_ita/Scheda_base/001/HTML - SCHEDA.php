@@ -13,7 +13,7 @@
         $data = [];
         while (($row = fgetcsv($fileHandle, 0, ";")) !== FALSE) {
             foreach ($row as $key => $value) {
-                $row[$key] = mb_convert_encoding($value, "UTF-8", "ISO-8859-1");
+                $row[$key] = function_exists("mb_convert_encoding") ? mb_convert_encoding($value, "UTF-8", "ISO-8859-1") : utf8_encode($value);
             }
             $data[] = $row;
         }
